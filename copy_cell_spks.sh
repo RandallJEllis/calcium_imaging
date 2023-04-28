@@ -1,0 +1,1 @@
+rsync -avm --include='*/' --include='*cell_spks*' --exclude='*' juanita/ $1
