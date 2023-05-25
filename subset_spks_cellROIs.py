@@ -10,6 +10,7 @@ save them as a new npy file.
 # Define the path to the Suite2P output
 root = sys.argv[1]
 print(root)
+overwrite = sys.argv[2] # 'True' or 'False'
 
 # create an empty list to store the subdirectories
 subdirectories = []
@@ -25,18 +26,30 @@ for dirpath, dirnames, filenames in os.walk(root):
 for dir in subdirectories:
     print(dir)
     # check if 'spks.npy' exists in the directory
-    if os.path.isfile(os.path.join(dir, 'bigtiffs', 'suite2p', 'plane0', 'spks.npy')):
+    if not os.path.isfile(os.path.join(dir, 'bigtiffs', 'suite2p', 'plane0', 'spks.npy')):
+        print('spks.npy does not exist')
+        continue
+    else:
         # check if 'cell_spks.npy' exists in the directory
-        if os.path.isfile(os.path.join(dir, 'bigtiffs', 'suite2p', 'plane0', 'cell_spks.npy')):
-            print('cell_spks.npy already exists')
-            continue
-        else:
+        if not os.path.isfile(os.path.join(dir, 'bigtiffs', 'suite2p', 'plane0', 'cell_spks.npy')):
             spks = np.load(os.path.join(dir, 'bigtiffs', 'suite2p', 'plane0', 'spks.npy'))
             iscell = np.load(os.path.join(dir, 'bigtiffs', 'suite2p', 'plane0', 'iscell.npy'))
             cell_spks = spks[iscell[:,0]==1,:]
             np.save(os.path.join(dir, 'bigtiffs', 'suite2p', 'plane0', 'cell_spks.npy'), cell_spks)
             print('cell_spks.npy saved')
-    else:
-        print('spks.npy does not exist')
-        continue
+        else: # if cell_spks.npy already exists
+            if overwrite == 'False':
+                print('cell_spks.npy already exists')
+                continue
+            elif overwrite == 'True':
+                spks = np.load(os.path.join(dir, 'bigtiffs', 'suite2p', 'plane0', 'spks.npy'))
+                iscell = np.load(os.path.join(dir, 'bigtiffs', 'suite2p', 'plane0', 'iscell.npy'))
+                cell_spks = spks[iscell[:,0]==1,:]
+                np.save(os.path.join(dir, 'bigtiffs', 'suite2p', 'plane0', 'cell_spks.npy'), cell_spks)
+                print('cell_spks.npy saved')
+
+
+       
+        
+        
         
