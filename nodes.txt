@@ -1,34 +1,34 @@
 NodeName=c1cmp003 Arch=x86_64 CoresPerSocket=10 
-   CPUAlloc=40 CPUTot=40 CPULoad=20.00
+   CPUAlloc=40 CPUTot=40 CPULoad=20.01
    AvailableFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    ActiveFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=c1cmp003 NodeHostName=c1cmp003 Version=20.02.6
    OS=Linux 3.10.0-514.el7.x86_64 #1 SMP Wed Oct 19 11:24:13 EDT 2016 
-   RealMemory=120000 AllocMem=51400 FreeMem=68034 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=34120 FreeMem=63630 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi 
-   BootTime=2021-01-15T14:42:31 SlurmdStartTime=2023-05-19T13:41:15
+   BootTime=2021-01-15T14:42:32 SlurmdStartTime=2023-05-19T13:41:15
    CfgTRES=cpu=40,mem=120000M,billing=40
-   AllocTRES=cpu=40,mem=51400M
+   AllocTRES=cpu=40,mem=34120M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=c1cmp004 Arch=x86_64 CoresPerSocket=10 
-   CPUAlloc=40 CPUTot=40 CPULoad=19.98
+   CPUAlloc=40 CPUTot=40 CPULoad=20.02
    AvailableFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    ActiveFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=c1cmp004 NodeHostName=c1cmp004 Version=20.02.6
    OS=Linux 3.10.0-514.el7.x86_64 #1 SMP Wed Oct 19 11:24:13 EDT 2016 
-   RealMemory=120000 AllocMem=51400 FreeMem=115842 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=34120 FreeMem=116269 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi 
-   BootTime=2021-01-15T14:47:32 SlurmdStartTime=2023-05-19T13:41:15
+   BootTime=2021-01-15T14:47:31 SlurmdStartTime=2023-05-19T13:41:15
    CfgTRES=cpu=40,mem=120000M,billing=40
-   AllocTRES=cpu=40,mem=51400M
+   AllocTRES=cpu=40,mem=34120M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
@@ -52,54 +52,54 @@ NodeName=c1cmp005 CoresPerSocket=10
    Reason=vmware [root@2022-10-18T22:02:32]
 
 NodeName=c1cmp006 Arch=x86_64 CoresPerSocket=10 
-   CPUAlloc=12 CPUTot=40 CPULoad=0.01
+   CPUAlloc=18 CPUTot=40 CPULoad=0.94
    AvailableFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    ActiveFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=c1cmp006 NodeHostName=c1cmp006 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=88000 FreeMem=57406 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=112000 FreeMem=19729 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi 
-   BootTime=2021-02-05T15:37:22 SlurmdStartTime=2023-05-19T13:41:17
+   BootTime=2021-02-05T15:37:21 SlurmdStartTime=2023-05-19T13:41:17
    CfgTRES=cpu=40,mem=120000M,billing=40
-   AllocTRES=cpu=12,mem=88000M
+   AllocTRES=cpu=18,mem=112000M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=c1cmp007 Arch=x86_64 CoresPerSocket=10 
-   CPUAlloc=40 CPUTot=40 CPULoad=19.89
+   CPUAlloc=40 CPUTot=40 CPULoad=19.95
    AvailableFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    ActiveFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=c1cmp007 NodeHostName=c1cmp007 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=51400 FreeMem=115684 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=34120 FreeMem=115206 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi 
-   BootTime=2021-02-05T16:03:16 SlurmdStartTime=2023-05-19T13:41:17
+   BootTime=2021-02-05T16:03:15 SlurmdStartTime=2023-05-19T13:41:17
    CfgTRES=cpu=40,mem=120000M,billing=40
-   AllocTRES=cpu=40,mem=51400M
+   AllocTRES=cpu=40,mem=34120M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=c1cmp008 Arch=x86_64 CoresPerSocket=10 
-   CPUAlloc=40 CPUTot=40 CPULoad=19.93
+   CPUAlloc=40 CPUTot=40 CPULoad=18.97
    AvailableFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    ActiveFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=c1cmp008 NodeHostName=c1cmp008 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=51400 FreeMem=92566 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=23880 FreeMem=90410 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi 
-   BootTime=2021-02-05T16:20:13 SlurmdStartTime=2023-05-19T13:41:19
+   BootTime=2021-02-05T16:20:12 SlurmdStartTime=2023-05-19T13:41:19
    CfgTRES=cpu=40,mem=120000M,billing=40
-   AllocTRES=cpu=40,mem=51400M
+   AllocTRES=cpu=40,mem=23880M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
@@ -112,10 +112,10 @@ NodeName=c1cmp009 Arch=x86_64 CoresPerSocket=10
    Gres=(null)
    NodeAddr=c1cmp009 NodeHostName=c1cmp009 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=0 FreeMem=98317 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=0 FreeMem=98309 Sockets=2 Boards=1
    State=RESERVED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi 
-   BootTime=2021-02-05T16:38:26 SlurmdStartTime=2023-05-19T13:41:17
+   BootTime=2021-02-05T16:38:25 SlurmdStartTime=2023-05-19T13:41:17
    CfgTRES=cpu=40,mem=120000M,billing=40
    AllocTRES=
    CapWatts=n/a
@@ -124,162 +124,162 @@ NodeName=c1cmp009 Arch=x86_64 CoresPerSocket=10
    
 
 NodeName=c1cmp010 Arch=x86_64 CoresPerSocket=10 
-   CPUAlloc=40 CPUTot=40 CPULoad=19.92
+   CPUAlloc=40 CPUTot=40 CPULoad=19.91
    AvailableFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    ActiveFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=c1cmp010 NodeHostName=c1cmp010 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=51400 FreeMem=72697 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=34120 FreeMem=70936 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi 
-   BootTime=2021-02-08T14:01:50 SlurmdStartTime=2023-05-19T13:41:17
+   BootTime=2021-02-08T14:01:49 SlurmdStartTime=2023-05-19T13:41:17
    CfgTRES=cpu=40,mem=120000M,billing=40
-   AllocTRES=cpu=40,mem=51400M
+   AllocTRES=cpu=40,mem=34120M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=c1cmp011 Arch=x86_64 CoresPerSocket=10 
-   CPUAlloc=40 CPUTot=40 CPULoad=19.91
+   CPUAlloc=40 CPUTot=40 CPULoad=19.93
    AvailableFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    ActiveFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=c1cmp011 NodeHostName=c1cmp011 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=51400 FreeMem=33461 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=34120 FreeMem=26397 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi 
-   BootTime=2021-02-08T15:42:10 SlurmdStartTime=2023-05-19T13:41:17
+   BootTime=2021-02-08T15:42:09 SlurmdStartTime=2023-05-19T13:41:17
    CfgTRES=cpu=40,mem=120000M,billing=40
-   AllocTRES=cpu=40,mem=51400M
+   AllocTRES=cpu=40,mem=34120M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=c1cmp012 Arch=x86_64 CoresPerSocket=10 
-   CPUAlloc=40 CPUTot=40 CPULoad=19.51
+   CPUAlloc=40 CPUTot=40 CPULoad=18.86
    AvailableFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    ActiveFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=c1cmp012 NodeHostName=c1cmp012 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=51400 FreeMem=111766 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=23880 FreeMem=110000 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi 
-   BootTime=2021-02-09T10:29:19 SlurmdStartTime=2023-05-19T13:41:18
+   BootTime=2021-02-09T10:29:18 SlurmdStartTime=2023-05-19T13:41:18
    CfgTRES=cpu=40,mem=120000M,billing=40
-   AllocTRES=cpu=40,mem=51400M
+   AllocTRES=cpu=40,mem=23880M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=c1cmp013 Arch=x86_64 CoresPerSocket=10 
-   CPUAlloc=20 CPUTot=40 CPULoad=6.01
+   CPUAlloc=40 CPUTot=40 CPULoad=8.01
    AvailableFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    ActiveFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=c1cmp013 NodeHostName=c1cmp013 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=112000 FreeMem=94547 Sockets=2 Boards=1
-   State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
+   RealMemory=120000 AllocMem=97920 FreeMem=91994 Sockets=2 Boards=1
+   State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi 
-   BootTime=2021-02-09T10:38:00 SlurmdStartTime=2023-05-19T13:41:18
+   BootTime=2021-02-09T10:37:59 SlurmdStartTime=2023-05-19T13:41:18
    CfgTRES=cpu=40,mem=120000M,billing=40
-   AllocTRES=cpu=20,mem=112000M
+   AllocTRES=cpu=40,mem=97920M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=c1cmp014 Arch=x86_64 CoresPerSocket=10 
-   CPUAlloc=20 CPUTot=40 CPULoad=19.69
+   CPUAlloc=36 CPUTot=40 CPULoad=10.04
    AvailableFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    ActiveFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=c1cmp014 NodeHostName=c1cmp014 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=112000 FreeMem=100854 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=102400 FreeMem=99796 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi 
-   BootTime=2021-02-09T10:50:10 SlurmdStartTime=2023-05-19T13:41:18
+   BootTime=2021-02-09T10:50:09 SlurmdStartTime=2023-05-19T13:41:18
    CfgTRES=cpu=40,mem=120000M,billing=40
-   AllocTRES=cpu=20,mem=112000M
+   AllocTRES=cpu=36,mem=100G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=c1cmp015 Arch=x86_64 CoresPerSocket=10 
-   CPUAlloc=40 CPUTot=40 CPULoad=19.96
+   CPUAlloc=40 CPUTot=40 CPULoad=17.93
    AvailableFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    ActiveFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=c1cmp015 NodeHostName=c1cmp015 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=51400 FreeMem=96255 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=34120 FreeMem=96300 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi 
-   BootTime=2021-06-03T11:21:17 SlurmdStartTime=2023-05-19T13:41:17
+   BootTime=2021-06-03T11:21:16 SlurmdStartTime=2023-05-19T13:41:17
    CfgTRES=cpu=40,mem=120000M,billing=40
-   AllocTRES=cpu=40,mem=51400M
+   AllocTRES=cpu=40,mem=34120M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=c1cmp016 Arch=x86_64 CoresPerSocket=10 
-   CPUAlloc=40 CPUTot=40 CPULoad=19.93
+   CPUAlloc=40 CPUTot=40 CPULoad=19.98
    AvailableFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    ActiveFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=c1cmp016 NodeHostName=c1cmp016 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=51400 FreeMem=90932 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=34120 FreeMem=90017 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi 
-   BootTime=2021-02-09T11:55:40 SlurmdStartTime=2023-05-19T13:41:18
+   BootTime=2021-02-09T11:55:39 SlurmdStartTime=2023-05-19T13:41:18
    CfgTRES=cpu=40,mem=120000M,billing=40
-   AllocTRES=cpu=40,mem=51400M
+   AllocTRES=cpu=40,mem=34120M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=c1cmp017 Arch=x86_64 CoresPerSocket=10 
-   CPUAlloc=40 CPUTot=40 CPULoad=19.85
+   CPUAlloc=40 CPUTot=40 CPULoad=18.95
    AvailableFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    ActiveFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=c1cmp017 NodeHostName=c1cmp017 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=51400 FreeMem=108440 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=34120 FreeMem=106283 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi 
-   BootTime=2021-02-09T12:38:15 SlurmdStartTime=2023-05-19T13:41:17
+   BootTime=2021-02-09T12:38:14 SlurmdStartTime=2023-05-19T13:41:17
    CfgTRES=cpu=40,mem=120000M,billing=40
-   AllocTRES=cpu=40,mem=51400M
+   AllocTRES=cpu=40,mem=34120M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=c1cmp018 Arch=x86_64 CoresPerSocket=10 
-   CPUAlloc=22 CPUTot=40 CPULoad=18.45
+   CPUAlloc=36 CPUTot=40 CPULoad=8.00
    AvailableFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    ActiveFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=c1cmp018 NodeHostName=c1cmp018 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=113600 FreeMem=107159 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=113920 FreeMem=97471 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi 
-   BootTime=2021-02-09T16:01:39 SlurmdStartTime=2023-05-19T13:41:18
+   BootTime=2021-02-09T16:01:38 SlurmdStartTime=2023-05-19T13:41:18
    CfgTRES=cpu=40,mem=120000M,billing=40
-   AllocTRES=cpu=22,mem=113600M
+   AllocTRES=cpu=36,mem=113920M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
@@ -292,10 +292,10 @@ NodeName=c1cmp019 Arch=x86_64 CoresPerSocket=10
    Gres=(null)
    NodeAddr=c1cmp019 NodeHostName=c1cmp019 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=0 FreeMem=125648 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=0 FreeMem=125646 Sockets=2 Boards=1
    State=RESERVED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi 
-   BootTime=2022-09-21T12:23:58 SlurmdStartTime=2023-05-19T13:41:17
+   BootTime=2022-09-21T12:23:57 SlurmdStartTime=2023-05-19T13:41:17
    CfgTRES=cpu=40,mem=120000M,billing=40
    AllocTRES=
    CapWatts=n/a
@@ -304,124 +304,124 @@ NodeName=c1cmp019 Arch=x86_64 CoresPerSocket=10
    
 
 NodeName=c1cmp020 Arch=x86_64 CoresPerSocket=10 
-   CPUAlloc=40 CPUTot=40 CPULoad=20.06
+   CPUAlloc=40 CPUTot=40 CPULoad=18.98
    AvailableFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    ActiveFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=c1cmp020 NodeHostName=c1cmp020 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=51400 FreeMem=107258 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=34120 FreeMem=107652 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi 
-   BootTime=2021-02-10T10:33:41 SlurmdStartTime=2023-05-19T13:41:18
+   BootTime=2021-02-10T10:33:40 SlurmdStartTime=2023-05-19T13:41:18
    CfgTRES=cpu=40,mem=120000M,billing=40
-   AllocTRES=cpu=40,mem=51400M
+   AllocTRES=cpu=40,mem=34120M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=c1cmp021 Arch=x86_64 CoresPerSocket=10 
-   CPUAlloc=40 CPUTot=40 CPULoad=19.85
+   CPUAlloc=40 CPUTot=40 CPULoad=18.98
    AvailableFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    ActiveFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=c1cmp021 NodeHostName=c1cmp021 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=51400 FreeMem=45096 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=34120 FreeMem=39824 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi 
-   BootTime=2021-02-10T10:55:22 SlurmdStartTime=2023-05-19T13:41:19
+   BootTime=2021-02-10T10:55:21 SlurmdStartTime=2023-05-19T13:41:19
    CfgTRES=cpu=40,mem=120000M,billing=40
-   AllocTRES=cpu=40,mem=51400M
+   AllocTRES=cpu=40,mem=34120M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=c1cmp022 Arch=x86_64 CoresPerSocket=10 
-   CPUAlloc=40 CPUTot=40 CPULoad=19.91
+   CPUAlloc=40 CPUTot=40 CPULoad=19.01
    AvailableFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    ActiveFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=c1cmp022 NodeHostName=c1cmp022 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=51400 FreeMem=70343 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=34120 FreeMem=67780 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi 
-   BootTime=2021-02-10T11:15:37 SlurmdStartTime=2023-05-19T13:41:19
+   BootTime=2021-02-10T11:15:36 SlurmdStartTime=2023-05-19T13:41:19
    CfgTRES=cpu=40,mem=120000M,billing=40
-   AllocTRES=cpu=40,mem=51400M
+   AllocTRES=cpu=40,mem=34120M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=c1cmp023 Arch=x86_64 CoresPerSocket=10 
-   CPUAlloc=40 CPUTot=40 CPULoad=19.91
+   CPUAlloc=40 CPUTot=40 CPULoad=17.98
    AvailableFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    ActiveFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=c1cmp023 NodeHostName=c1cmp023 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=51400 FreeMem=112237 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=34120 FreeMem=109286 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi 
-   BootTime=2021-02-10T11:36:57 SlurmdStartTime=2023-05-19T13:41:18
+   BootTime=2021-02-10T11:36:56 SlurmdStartTime=2023-05-19T13:41:18
    CfgTRES=cpu=40,mem=120000M,billing=40
-   AllocTRES=cpu=40,mem=51400M
+   AllocTRES=cpu=40,mem=34120M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=c1cmp024 Arch=x86_64 CoresPerSocket=10 
-   CPUAlloc=40 CPUTot=40 CPULoad=19.91
+   CPUAlloc=40 CPUTot=40 CPULoad=18.96
    AvailableFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    ActiveFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=c1cmp024 NodeHostName=c1cmp024 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=51400 FreeMem=109607 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=34120 FreeMem=109700 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi 
-   BootTime=2021-02-11T10:26:55 SlurmdStartTime=2023-05-19T13:41:18
+   BootTime=2021-02-11T10:26:54 SlurmdStartTime=2023-05-19T13:41:18
    CfgTRES=cpu=40,mem=120000M,billing=40
-   AllocTRES=cpu=40,mem=51400M
+   AllocTRES=cpu=40,mem=34120M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=c1cmp025 Arch=x86_64 CoresPerSocket=10 
-   CPUAlloc=26 CPUTot=40 CPULoad=4.99
+   CPUAlloc=12 CPUTot=40 CPULoad=4.01
    AvailableFeatures=gpu,ivy_bridge_ep,avx,sse4_2,rhel7
    ActiveFeatures=gpu,ivy_bridge_ep,avx,sse4_2,rhel7
    Gres=gpu:k20xm:1(S:1)
    NodeAddr=c1cmp025 NodeHostName=c1cmp025 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=111616 FreeMem=59814 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=115712 FreeMem=54184 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
    Partitions=gpu,preempt 
-   BootTime=2021-09-01T16:24:54 SlurmdStartTime=2023-05-19T13:41:12
+   BootTime=2021-09-01T16:24:53 SlurmdStartTime=2023-05-19T13:41:12
    CfgTRES=cpu=40,mem=120000M,billing=40,gres/gpu=1
-   AllocTRES=cpu=26,mem=109G
+   AllocTRES=cpu=12,mem=113G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=c1cmp026 Arch=x86_64 CoresPerSocket=10 
-   CPUAlloc=26 CPUTot=40 CPULoad=4.98
+   CPUAlloc=26 CPUTot=40 CPULoad=4.92
    AvailableFeatures=gpu,ivy_bridge_ep,avx,sse4_2,rhel7
    ActiveFeatures=gpu,ivy_bridge_ep,avx,sse4_2,rhel7
    Gres=gpu:k20xm:1(S:1)
    NodeAddr=c1cmp026 NodeHostName=c1cmp026 Version=20.02.6
    OS=Linux 3.10.0-862.el7.x86_64 #1 SMP Wed Mar 21 18:14:51 EDT 2018 
-   RealMemory=120000 AllocMem=111616 FreeMem=96403 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=111616 FreeMem=96131 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
    Partitions=gpu,preempt 
-   BootTime=2021-01-21T10:33:48 SlurmdStartTime=2023-05-19T13:41:12
+   BootTime=2021-01-21T10:33:47 SlurmdStartTime=2023-05-19T13:41:12
    CfgTRES=cpu=40,mem=120000M,billing=40,gres/gpu=1
    AllocTRES=cpu=26,mem=109G
    CapWatts=n/a
@@ -430,36 +430,36 @@ NodeName=c1cmp026 Arch=x86_64 CoresPerSocket=10
    
 
 NodeName=c1cmp027 Arch=x86_64 CoresPerSocket=10 
-   CPUAlloc=16 CPUTot=40 CPULoad=4.61
+   CPUAlloc=38 CPUTot=40 CPULoad=11.03
    AvailableFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    ActiveFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=c1cmp027 NodeHostName=c1cmp027 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=368000 AllocMem=65536 FreeMem=367218 Sockets=2 Boards=1
+   RealMemory=368000 AllocMem=112160 FreeMem=341544 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=3000 Owner=N/A MCS_label=N/A
    Partitions=largemem 
-   BootTime=2021-02-11T12:36:42 SlurmdStartTime=2023-05-19T13:41:18
+   BootTime=2021-02-11T12:36:41 SlurmdStartTime=2023-05-19T13:41:18
    CfgTRES=cpu=40,mem=368000M,billing=40
-   AllocTRES=cpu=16,mem=64G
+   AllocTRES=cpu=38,mem=112160M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=c1cmp028 Arch=x86_64 CoresPerSocket=10 
-   CPUAlloc=16 CPUTot=40 CPULoad=4.60
+   CPUAlloc=40 CPUTot=40 CPULoad=10.02
    AvailableFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    ActiveFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=c1cmp028 NodeHostName=c1cmp028 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=368000 AllocMem=53248 FreeMem=310256 Sockets=2 Boards=1
-   State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=3000 Owner=N/A MCS_label=N/A
+   RealMemory=368000 AllocMem=102400 FreeMem=311521 Sockets=2 Boards=1
+   State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=3000 Owner=N/A MCS_label=N/A
    Partitions=largemem 
-   BootTime=2021-02-10T16:35:44 SlurmdStartTime=2023-05-19T13:41:18
+   BootTime=2021-02-10T16:35:43 SlurmdStartTime=2023-05-19T13:41:18
    CfgTRES=cpu=40,mem=368000M,billing=40
-   AllocTRES=cpu=16,mem=52G
+   AllocTRES=cpu=40,mem=100G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
@@ -472,9 +472,9 @@ NodeName=c1cmp029 Arch=x86_64 CoresPerSocket=10
    Gres=(null)
    NodeAddr=c1cmp029 NodeHostName=c1cmp029 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=0 FreeMem=116954 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=0 FreeMem=116950 Sockets=2 Boards=1
    State=IDLE+DRAIN ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
-   BootTime=2021-02-11T11:50:17 SlurmdStartTime=2023-05-19T13:41:18
+   BootTime=2021-02-11T11:50:16 SlurmdStartTime=2023-05-19T13:41:18
    CfgTRES=cpu=40,mem=120000M,billing=40
    AllocTRES=
    CapWatts=n/a
@@ -523,10 +523,10 @@ NodeName=c1cmp033 Arch=x86_64 CoresPerSocket=10
    Gres=(null)
    NodeAddr=c1cmp033 NodeHostName=c1cmp033 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=0 FreeMem=111451 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=0 FreeMem=111447 Sockets=2 Boards=1
    State=RESERVED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi 
-   BootTime=2021-02-23T15:03:56 SlurmdStartTime=2023-05-19T13:41:18
+   BootTime=2021-02-23T15:03:55 SlurmdStartTime=2023-05-19T13:41:18
    CfgTRES=cpu=40,mem=120000M,billing=40
    AllocTRES=
    CapWatts=n/a
@@ -535,18 +535,18 @@ NodeName=c1cmp033 Arch=x86_64 CoresPerSocket=10
    
 
 NodeName=c1cmp034 Arch=x86_64 CoresPerSocket=10 
-   CPUAlloc=20 CPUTot=40 CPULoad=25.37
+   CPUAlloc=40 CPUTot=40 CPULoad=9.98
    AvailableFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    ActiveFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=c1cmp034 NodeHostName=c1cmp034 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=112000 FreeMem=119686 Sockets=2 Boards=1
-   State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
+   RealMemory=120000 AllocMem=112640 FreeMem=118350 Sockets=2 Boards=1
+   State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi 
-   BootTime=2022-06-15T06:49:52 SlurmdStartTime=2023-05-19T13:41:18
+   BootTime=2022-06-15T06:49:51 SlurmdStartTime=2023-05-19T13:41:18
    CfgTRES=cpu=40,mem=120000M,billing=40
-   AllocTRES=cpu=20,mem=112000M
+   AllocTRES=cpu=40,mem=110G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
@@ -559,10 +559,10 @@ NodeName=c1cmp035 Arch=x86_64 CoresPerSocket=10
    Gres=(null)
    NodeAddr=c1cmp035 NodeHostName=c1cmp035 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=0 FreeMem=124831 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=0 FreeMem=124827 Sockets=2 Boards=1
    State=RESERVED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi 
-   BootTime=2021-02-23T15:42:14 SlurmdStartTime=2023-05-19T13:41:18
+   BootTime=2021-02-23T15:42:13 SlurmdStartTime=2023-05-19T13:41:18
    CfgTRES=cpu=40,mem=120000M,billing=40
    AllocTRES=
    CapWatts=n/a
@@ -571,34 +571,34 @@ NodeName=c1cmp035 Arch=x86_64 CoresPerSocket=10
    
 
 NodeName=c1cmp036 Arch=x86_64 CoresPerSocket=10 
-   CPUAlloc=20 CPUTot=40 CPULoad=23.99
+   CPUAlloc=32 CPUTot=40 CPULoad=8.09
    AvailableFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    ActiveFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=c1cmp036 NodeHostName=c1cmp036 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=105600 FreeMem=118751 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=92160 FreeMem=118450 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi 
-   BootTime=2021-02-24T10:20:41 SlurmdStartTime=2023-05-19T13:41:19
+   BootTime=2021-02-24T10:20:40 SlurmdStartTime=2023-05-19T13:41:19
    CfgTRES=cpu=40,mem=120000M,billing=40
-   AllocTRES=cpu=20,mem=105600M
+   AllocTRES=cpu=32,mem=90G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=c1cmp037 Arch=x86_64 CoresPerSocket=10 
-   CPUAlloc=0 CPUTot=40 CPULoad=0.01
+   CPUAlloc=0 CPUTot=40 CPULoad=0.02
    AvailableFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    ActiveFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=c1cmp037 NodeHostName=c1cmp037 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=0 FreeMem=119226 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=0 FreeMem=119219 Sockets=2 Boards=1
    State=RESERVED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi 
-   BootTime=2021-02-24T11:24:58 SlurmdStartTime=2023-05-19T13:41:18
+   BootTime=2021-02-24T11:24:57 SlurmdStartTime=2023-05-19T13:41:18
    CfgTRES=cpu=40,mem=120000M,billing=40
    AllocTRES=
    CapWatts=n/a
@@ -607,88 +607,88 @@ NodeName=c1cmp037 Arch=x86_64 CoresPerSocket=10
    
 
 NodeName=c1cmp038 Arch=x86_64 CoresPerSocket=10 
-   CPUAlloc=40 CPUTot=40 CPULoad=19.89
+   CPUAlloc=40 CPUTot=40 CPULoad=19.91
    AvailableFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    ActiveFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=c1cmp038 NodeHostName=c1cmp038 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=51400 FreeMem=113418 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=34120 FreeMem=109402 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi 
-   BootTime=2021-02-24T13:00:36 SlurmdStartTime=2023-05-19T13:41:19
+   BootTime=2021-02-24T13:00:35 SlurmdStartTime=2023-05-19T13:41:19
    CfgTRES=cpu=40,mem=120000M,billing=40
-   AllocTRES=cpu=40,mem=51400M
+   AllocTRES=cpu=40,mem=34120M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=c1cmp039 Arch=x86_64 CoresPerSocket=10 
-   CPUAlloc=40 CPUTot=40 CPULoad=19.89
+   CPUAlloc=40 CPUTot=40 CPULoad=19.87
    AvailableFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    ActiveFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=c1cmp039 NodeHostName=c1cmp039 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=51400 FreeMem=114915 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=34120 FreeMem=114377 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi 
-   BootTime=2021-02-24T14:03:10 SlurmdStartTime=2023-05-19T13:41:19
+   BootTime=2021-02-24T14:03:09 SlurmdStartTime=2023-05-19T13:41:19
    CfgTRES=cpu=40,mem=120000M,billing=40
-   AllocTRES=cpu=40,mem=51400M
+   AllocTRES=cpu=40,mem=34120M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=c1cmp040 Arch=x86_64 CoresPerSocket=10 
-   CPUAlloc=6 CPUTot=40 CPULoad=2.01
+   CPUAlloc=8 CPUTot=40 CPULoad=0.05
    AvailableFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    ActiveFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=c1cmp040 NodeHostName=c1cmp040 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=80000 FreeMem=71668 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=120000 FreeMem=112802 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi 
-   BootTime=2021-09-03T19:32:25 SlurmdStartTime=2023-05-19T13:41:19
+   BootTime=2021-09-03T19:32:24 SlurmdStartTime=2023-05-19T13:41:19
    CfgTRES=cpu=40,mem=120000M,billing=40
-   AllocTRES=cpu=6,mem=80000M
+   AllocTRES=cpu=8,mem=120000M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=c1cmp041 Arch=x86_64 CoresPerSocket=10 
-   CPUAlloc=4 CPUTot=40 CPULoad=0.01
+   CPUAlloc=8 CPUTot=40 CPULoad=0.13
    AvailableFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    ActiveFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=c1cmp041 NodeHostName=c1cmp041 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=64000 FreeMem=119906 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=112000 FreeMem=90679 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi 
-   BootTime=2021-02-24T17:51:06 SlurmdStartTime=2023-05-19T13:41:19
+   BootTime=2021-02-24T17:51:05 SlurmdStartTime=2023-05-19T13:41:19
    CfgTRES=cpu=40,mem=120000M,billing=40
-   AllocTRES=cpu=4,mem=62.50G
+   AllocTRES=cpu=8,mem=112000M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=c1cmp042 Arch=x86_64 CoresPerSocket=10 
-   CPUAlloc=4 CPUTot=40 CPULoad=0.01
+   CPUAlloc=4 CPUTot=40 CPULoad=0.03
    AvailableFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    ActiveFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=c1cmp042 NodeHostName=c1cmp042 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=120000 FreeMem=120893 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=120000 FreeMem=115320 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi 
-   BootTime=2021-02-24T18:08:37 SlurmdStartTime=2023-05-19T13:41:19
+   BootTime=2021-02-24T18:08:36 SlurmdStartTime=2023-05-19T13:41:19
    CfgTRES=cpu=40,mem=120000M,billing=40
    AllocTRES=cpu=4,mem=120000M
    CapWatts=n/a
@@ -697,18 +697,18 @@ NodeName=c1cmp042 Arch=x86_64 CoresPerSocket=10
    
 
 NodeName=c1cmp043 Arch=x86_64 CoresPerSocket=10 
-   CPUAlloc=2 CPUTot=40 CPULoad=0.28
+   CPUAlloc=8 CPUTot=40 CPULoad=0.01
    AvailableFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    ActiveFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=c1cmp043 NodeHostName=c1cmp043 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=64000 FreeMem=86854 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=96000 FreeMem=63672 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi 
-   BootTime=2021-02-24T18:36:50 SlurmdStartTime=2023-05-19T13:41:19
+   BootTime=2021-02-24T18:36:49 SlurmdStartTime=2023-05-19T13:41:19
    CfgTRES=cpu=40,mem=120000M,billing=40
-   AllocTRES=cpu=2,mem=62.50G
+   AllocTRES=cpu=8,mem=96000M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
@@ -721,10 +721,10 @@ NodeName=c1cmp044 Arch=x86_64 CoresPerSocket=10
    Gres=(null)
    NodeAddr=c1cmp044 NodeHostName=c1cmp044 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=0 FreeMem=126105 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=0 FreeMem=126101 Sockets=2 Boards=1
    State=RESERVED+DRAIN ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi 
-   BootTime=2022-12-13T12:15:27 SlurmdStartTime=2023-05-19T13:41:19
+   BootTime=2022-12-13T12:15:26 SlurmdStartTime=2023-05-19T13:41:19
    CfgTRES=cpu=40,mem=120000M,billing=40
    AllocTRES=
    CapWatts=n/a
@@ -739,10 +739,10 @@ NodeName=c1cmp045 Arch=x86_64 CoresPerSocket=10
    Gres=(null)
    NodeAddr=c1cmp045 NodeHostName=c1cmp045 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=0 FreeMem=117833 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=0 FreeMem=117823 Sockets=2 Boards=1
    State=RESERVED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi 
-   BootTime=2021-02-24T18:44:38 SlurmdStartTime=2023-05-19T13:41:19
+   BootTime=2021-02-24T18:44:37 SlurmdStartTime=2023-05-19T13:41:19
    CfgTRES=cpu=40,mem=120000M,billing=40
    AllocTRES=
    CapWatts=n/a
@@ -757,10 +757,10 @@ NodeName=c1cmp046 Arch=x86_64 CoresPerSocket=10
    Gres=(null)
    NodeAddr=c1cmp046 NodeHostName=c1cmp046 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=0 FreeMem=123844 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=0 FreeMem=123839 Sockets=2 Boards=1
    State=RESERVED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi 
-   BootTime=2021-02-25T12:38:08 SlurmdStartTime=2023-05-19T13:41:19
+   BootTime=2021-02-25T12:38:07 SlurmdStartTime=2023-05-19T13:41:19
    CfgTRES=cpu=40,mem=120000M,billing=40
    AllocTRES=
    CapWatts=n/a
@@ -775,10 +775,10 @@ NodeName=c1cmp047 Arch=x86_64 CoresPerSocket=10
    Gres=(null)
    NodeAddr=c1cmp047 NodeHostName=c1cmp047 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=0 FreeMem=86549 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=0 FreeMem=86551 Sockets=2 Boards=1
    State=RESERVED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi 
-   BootTime=2021-02-25T12:56:48 SlurmdStartTime=2023-05-19T13:41:19
+   BootTime=2021-02-25T12:56:47 SlurmdStartTime=2023-05-19T13:41:19
    CfgTRES=cpu=40,mem=120000M,billing=40
    AllocTRES=
    CapWatts=n/a
@@ -793,10 +793,10 @@ NodeName=c1cmp048 Arch=x86_64 CoresPerSocket=10
    Gres=(null)
    NodeAddr=c1cmp048 NodeHostName=c1cmp048 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=0 FreeMem=125003 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=0 FreeMem=124998 Sockets=2 Boards=1
    State=RESERVED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi 
-   BootTime=2022-03-12T11:57:53 SlurmdStartTime=2023-05-19T13:41:19
+   BootTime=2022-03-12T11:57:52 SlurmdStartTime=2023-05-19T13:41:19
    CfgTRES=cpu=40,mem=120000M,billing=40
    AllocTRES=
    CapWatts=n/a
@@ -805,16 +805,16 @@ NodeName=c1cmp048 Arch=x86_64 CoresPerSocket=10
    
 
 NodeName=c1cmp049 Arch=x86_64 CoresPerSocket=10 
-   CPUAlloc=0 CPUTot=40 CPULoad=0.01
+   CPUAlloc=0 CPUTot=40 CPULoad=0.02
    AvailableFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    ActiveFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=c1cmp049 NodeHostName=c1cmp049 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=0 FreeMem=124819 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=0 FreeMem=124816 Sockets=2 Boards=1
    State=RESERVED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi 
-   BootTime=2022-03-12T12:22:56 SlurmdStartTime=2023-05-19T13:41:19
+   BootTime=2022-03-12T12:22:55 SlurmdStartTime=2023-05-19T13:41:19
    CfgTRES=cpu=40,mem=120000M,billing=40
    AllocTRES=
    CapWatts=n/a
@@ -823,18 +823,18 @@ NodeName=c1cmp049 Arch=x86_64 CoresPerSocket=10
    
 
 NodeName=c1cmp051 Arch=x86_64 CoresPerSocket=10 
-   CPUAlloc=40 CPUTot=40 CPULoad=19.37
+   CPUAlloc=40 CPUTot=40 CPULoad=16.99
    AvailableFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    ActiveFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=c1cmp051 NodeHostName=c1cmp051 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=51400 FreeMem=120958 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=34120 FreeMem=119081 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi 
-   BootTime=2021-02-25T14:34:17 SlurmdStartTime=2023-05-19T13:41:19
+   BootTime=2021-02-25T14:34:16 SlurmdStartTime=2023-05-19T13:41:19
    CfgTRES=cpu=40,mem=120000M,billing=40
-   AllocTRES=cpu=40,mem=51400M
+   AllocTRES=cpu=40,mem=34120M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
@@ -858,36 +858,36 @@ NodeName=c1cmp052 CoresPerSocket=10
    Reason=memory-error-dd3-p2-e0 [root@2022-10-28T11:24:51]
 
 NodeName=c1cmp053 Arch=x86_64 CoresPerSocket=10 
-   CPUAlloc=40 CPUTot=40 CPULoad=19.94
+   CPUAlloc=40 CPUTot=40 CPULoad=18.91
    AvailableFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    ActiveFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=c1cmp053 NodeHostName=c1cmp053 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=51400 FreeMem=113139 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=34120 FreeMem=110835 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi 
-   BootTime=2021-02-25T16:22:12 SlurmdStartTime=2023-05-19T13:41:19
+   BootTime=2021-02-25T16:22:11 SlurmdStartTime=2023-05-19T13:41:19
    CfgTRES=cpu=40,mem=120000M,billing=40
-   AllocTRES=cpu=40,mem=51400M
+   AllocTRES=cpu=40,mem=34120M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=c1cmp054 Arch=x86_64 CoresPerSocket=10 
-   CPUAlloc=40 CPUTot=40 CPULoad=19.88
+   CPUAlloc=40 CPUTot=40 CPULoad=16.96
    AvailableFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    ActiveFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=c1cmp054 NodeHostName=c1cmp054 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=51400 FreeMem=114370 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=34120 FreeMem=119173 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi 
    BootTime=2021-02-25T16:44:20 SlurmdStartTime=2023-05-19T13:41:19
    CfgTRES=cpu=40,mem=120000M,billing=40
-   AllocTRES=cpu=40,mem=51400M
+   AllocTRES=cpu=40,mem=34120M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
@@ -945,166 +945,166 @@ NodeName=c1cmp059 CoresPerSocket=10
    Reason=vmware [root@2022-10-18T22:02:32]
 
 NodeName=c1cmp061 Arch=x86_64 CoresPerSocket=10 
-   CPUAlloc=16 CPUTot=40 CPULoad=4.35
+   CPUAlloc=40 CPUTot=40 CPULoad=10.01
    AvailableFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    ActiveFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=c1cmp061 NodeHostName=c1cmp061 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=368000 AllocMem=65536 FreeMem=372900 Sockets=2 Boards=1
-   State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=3000 Owner=N/A MCS_label=N/A
+   RealMemory=368000 AllocMem=102400 FreeMem=370077 Sockets=2 Boards=1
+   State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=3000 Owner=N/A MCS_label=N/A
    Partitions=largemem 
-   BootTime=2021-02-22T11:58:13 SlurmdStartTime=2023-05-19T13:41:18
+   BootTime=2021-02-22T11:58:14 SlurmdStartTime=2023-05-19T13:41:18
    CfgTRES=cpu=40,mem=368000M,billing=40
-   AllocTRES=cpu=16,mem=64G
+   AllocTRES=cpu=40,mem=100G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=c1cmp062 Arch=x86_64 CoresPerSocket=10 
-   CPUAlloc=12 CPUTot=40 CPULoad=3.12
+   CPUAlloc=40 CPUTot=40 CPULoad=11.02
    AvailableFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    ActiveFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=c1cmp062 NodeHostName=c1cmp062 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=368000 AllocMem=49152 FreeMem=372154 Sockets=2 Boards=1
-   State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=3000 Owner=N/A MCS_label=N/A
+   RealMemory=368000 AllocMem=176160 FreeMem=348002 Sockets=2 Boards=1
+   State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=3000 Owner=N/A MCS_label=N/A
    Partitions=largemem 
-   BootTime=2021-02-22T12:40:38 SlurmdStartTime=2023-05-19T13:41:18
+   BootTime=2021-02-22T12:40:39 SlurmdStartTime=2023-05-19T13:41:18
    CfgTRES=cpu=40,mem=368000M,billing=40
-   AllocTRES=cpu=12,mem=48G
+   AllocTRES=cpu=40,mem=176160M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=c1cmp063 Arch=x86_64 CoresPerSocket=10 
-   CPUAlloc=32 CPUTot=40 CPULoad=1.58
+   CPUAlloc=8 CPUTot=40 CPULoad=0.01
    AvailableFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    ActiveFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=c1cmp063 NodeHostName=c1cmp063 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=61344 FreeMem=115581 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=116688 FreeMem=92014 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
    Partitions=interactive 
    BootTime=2021-09-01T16:24:42 SlurmdStartTime=2023-05-19T13:41:18
    CfgTRES=cpu=40,mem=120000M,billing=40
-   AllocTRES=cpu=32,mem=61344M
+   AllocTRES=cpu=8,mem=116688M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=c1cmp064 Arch=x86_64 CoresPerSocket=10 
-   CPUAlloc=0 CPUTot=40 CPULoad=0.01
+   CPUAlloc=6 CPUTot=40 CPULoad=0.04
    AvailableFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    ActiveFeatures=ivy_bridge_ep,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=c1cmp064 NodeHostName=c1cmp064 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=0 FreeMem=126081 Sockets=2 Boards=1
-   State=IDLE ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
+   RealMemory=120000 AllocMem=10192 FreeMem=123790 Sockets=2 Boards=1
+   State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2000 Owner=N/A MCS_label=N/A
    Partitions=interactive 
    BootTime=2021-02-16T13:47:23 SlurmdStartTime=2023-05-19T13:41:18
    CfgTRES=cpu=40,mem=120000M,billing=40
-   AllocTRES=
+   AllocTRES=cpu=6,mem=10192M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=cc1gpu001 Arch=x86_64 CoresPerSocket=16 
-   CPUAlloc=64 CPUTot=64 CPULoad=76.28
+   CPUAlloc=64 CPUTot=64 CPULoad=283.08
    AvailableFeatures=gpu,avx2,avx,sse4_2,rhel7
    ActiveFeatures=gpu,avx2,avx,sse4_2,rhel7
    Gres=gpu:a100:8(S:0)
    NodeAddr=cc1gpu001 NodeHostName=cc1gpu001 Version=20.02.6
    OS=Linux 3.10.0-862.el7.x86_64 #1 SMP Wed Mar 21 18:14:51 EDT 2018 
-   RealMemory=756121 AllocMem=269760 FreeMem=615735 Sockets=2 Boards=1
+   RealMemory=756121 AllocMem=242944 FreeMem=561346 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=ccgpu,preempt 
    BootTime=2022-09-29T13:33:37 SlurmdStartTime=2023-05-19T13:41:12
    CfgTRES=cpu=64,mem=756121M,billing=64,gres/gpu=8
-   AllocTRES=cpu=64,mem=269760M,gres/gpu=6
+   AllocTRES=cpu=64,mem=242944M,gres/gpu=8
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=cc1gpu002 Arch=x86_64 CoresPerSocket=16 
-   CPUAlloc=64 CPUTot=64 CPULoad=99.18
+   CPUAlloc=62 CPUTot=64 CPULoad=261.45
    AvailableFeatures=gpu,avx2,avx,sse4_2,rhel7
    ActiveFeatures=gpu,avx2,avx,sse4_2,rhel7
    Gres=gpu:a100:8(S:0)
    NodeAddr=cc1gpu002 NodeHostName=cc1gpu002 Version=20.02.6
    OS=Linux 3.10.0-862.el7.x86_64 #1 SMP Wed Mar 21 18:14:51 EDT 2018 
-   RealMemory=756121 AllocMem=243712 FreeMem=447161 Sockets=2 Boards=1
-   State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
+   RealMemory=756121 AllocMem=249664 FreeMem=555671 Sockets=2 Boards=1
+   State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=ccgpu,preempt 
    BootTime=2021-12-15T16:58:08 SlurmdStartTime=2023-05-19T13:41:12
    CfgTRES=cpu=64,mem=756121M,billing=64,gres/gpu=8
-   AllocTRES=cpu=64,mem=238G,gres/gpu=6
+   AllocTRES=cpu=62,mem=249664M,gres/gpu=8
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=cc1gpu003 Arch=x86_64 CoresPerSocket=16 
-   CPUAlloc=64 CPUTot=64 CPULoad=102.10
+   CPUAlloc=62 CPUTot=64 CPULoad=106.24
    AvailableFeatures=gpu,avx2,avx,sse4_2,rhel7
    ActiveFeatures=gpu,avx2,avx,sse4_2,rhel7
    Gres=gpu:a100:8(S:0)
    NodeAddr=cc1gpu003 NodeHostName=cc1gpu003 Version=20.02.6
    OS=Linux 3.10.0-862.el7.x86_64 #1 SMP Wed Mar 21 18:14:51 EDT 2018 
-   RealMemory=756121 AllocMem=293840 FreeMem=545954 Sockets=2 Boards=1
-   State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
+   RealMemory=756121 AllocMem=271120 FreeMem=532206 Sockets=2 Boards=1
+   State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=ccgpu,preempt 
    BootTime=2021-09-01T16:31:33 SlurmdStartTime=2023-05-19T13:41:12
    CfgTRES=cpu=64,mem=756121M,billing=64,gres/gpu=8
-   AllocTRES=cpu=64,mem=293840M,gres/gpu=8
+   AllocTRES=cpu=62,mem=271120M,gres/gpu=8
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=cc1gpu004 Arch=x86_64 CoresPerSocket=16 
-   CPUAlloc=64 CPUTot=64 CPULoad=9.47
+   CPUAlloc=64 CPUTot=64 CPULoad=219.15
    AvailableFeatures=gpu,avx2,avx,sse4_2,rhel7
    ActiveFeatures=gpu,avx2,avx,sse4_2,rhel7
    Gres=gpu:a100:8(S:0)
    NodeAddr=cc1gpu004 NodeHostName=cc1gpu004 Version=20.02.6
    OS=Linux 3.10.0-862.el7.x86_64 #1 SMP Wed Mar 21 18:14:51 EDT 2018 
-   RealMemory=756121 AllocMem=277952 FreeMem=657700 Sockets=2 Boards=1
+   RealMemory=756121 AllocMem=226720 FreeMem=629763 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=ccgpu,preempt 
    BootTime=2021-09-01T16:31:31 SlurmdStartTime=2023-05-19T13:41:12
    CfgTRES=cpu=64,mem=756121M,billing=64,gres/gpu=8
-   AllocTRES=cpu=64,mem=277952M,gres/gpu=7
+   AllocTRES=cpu=64,mem=226720M,gres/gpu=8
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=cc1gpu005 Arch=x86_64 CoresPerSocket=16 
-   CPUAlloc=6 CPUTot=64 CPULoad=0.13
+   CPUAlloc=64 CPUTot=64 CPULoad=8.03
    AvailableFeatures=gpu,avx2,avx,sse4_2,rhel7
    ActiveFeatures=gpu,avx2,avx,sse4_2,rhel7
    Gres=gpu:a100:8(S:0-1)
    NodeAddr=cc1gpu005 NodeHostName=cc1gpu005 Version=20.02.6
    OS=Linux 3.10.0-862.el7.x86_64 #1 SMP Wed Mar 21 18:14:51 EDT 2018 
-   RealMemory=756121 AllocMem=30720 FreeMem=741292 Sockets=2 Boards=1
-   State=MIXED+DRAIN ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
+   RealMemory=756121 AllocMem=262144 FreeMem=757029 Sockets=2 Boards=1
+   State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=ccgpu,preempt 
-   BootTime=2022-11-28T14:58:30 SlurmdStartTime=2023-05-19T13:42:33
+   BootTime=2023-05-25T11:08:28 SlurmdStartTime=2023-05-25T12:12:58
    CfgTRES=cpu=64,mem=756121M,billing=64,gres/gpu=8
-   AllocTRES=cpu=6,mem=30G,gres/gpu=1
+   AllocTRES=cpu=64,mem=256G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
-   Reason=gpu005-err [root@2023-05-19T13:26:24]
+   
 
 NodeName=fastx-prod-01 CoresPerSocket=1 
    CPUAlloc=0 CPUTot=2 CPULoad=N/A
@@ -1123,36 +1123,36 @@ NodeName=fastx-prod-01 CoresPerSocket=1
    Reason=Not responding [root@2020-12-02T17:13:01]
 
 NodeName=i2cmp001 Arch=x86_64 CoresPerSocket=8 
-   CPUAlloc=3 CPUTot=16 CPULoad=0.38
+   CPUAlloc=4 CPUTot=16 CPULoad=1.03
    AvailableFeatures=(null)
    ActiveFeatures=(null)
    Gres=(null)
    NodeAddr=i2cmp001 NodeHostName=i2cmp001 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=30000 AllocMem=24576 FreeMem=28250 Sockets=2 Boards=1
+   RealMemory=30000 AllocMem=10240 FreeMem=26552 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=1 TmpDisk=0 Weight=1000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi 
    BootTime=2022-11-21T08:48:58 SlurmdStartTime=2023-05-19T13:41:15
    CfgTRES=cpu=16,mem=30000M,billing=16
-   AllocTRES=cpu=3,mem=24G
+   AllocTRES=cpu=4,mem=10G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=i2cmp003 Arch=x86_64 CoresPerSocket=4 
-   CPUAlloc=16 CPUTot=16 CPULoad=8.01
+   CPUAlloc=16 CPUTot=16 CPULoad=4.02
    AvailableFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    ActiveFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    Gres=(null)
    NodeAddr=i2cmp003 NodeHostName=i2cmp003 Version=20.02.6
    OS=Linux 3.10.0-862.el7.x86_64 #1 SMP Wed Mar 21 18:14:51 EDT 2018 
-   RealMemory=128000 AllocMem=128000 FreeMem=118799 Sockets=2 Boards=1
+   RealMemory=128000 AllocMem=81920 FreeMem=122069 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=1000 Owner=N/A MCS_label=N/A
    Partitions=batch 
    BootTime=2021-01-28T19:43:48 SlurmdStartTime=2023-05-19T13:41:17
    CfgTRES=cpu=16,mem=125G,billing=16
-   AllocTRES=cpu=16,mem=125G
+   AllocTRES=cpu=16,mem=80G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
@@ -1193,54 +1193,54 @@ NodeName=i2cmp005 CoresPerSocket=4
    Reason=disk-errs [root@2023-05-15T12:55:31]
 
 NodeName=i2cmp006 Arch=x86_64 CoresPerSocket=4 
-   CPUAlloc=2 CPUTot=16 CPULoad=2.02
+   CPUAlloc=10 CPUTot=16 CPULoad=3.05
    AvailableFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    ActiveFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    Gres=(null)
    NodeAddr=i2cmp006 NodeHostName=i2cmp006 Version=20.02.6
    OS=Linux 3.10.0-862.el7.x86_64 #1 SMP Wed Mar 21 18:14:51 EDT 2018 
-   RealMemory=30000 AllocMem=13312 FreeMem=17776 Sockets=2 Boards=1
+   RealMemory=30000 AllocMem=27552 FreeMem=343 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2500 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-03-01T16:03:27 SlurmdStartTime=2023-05-19T13:41:19
    CfgTRES=cpu=16,mem=30000M,billing=16
-   AllocTRES=cpu=2,mem=13G
+   AllocTRES=cpu=10,mem=27552M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=i2cmp008 Arch=x86_64 CoresPerSocket=4 
-   CPUAlloc=2 CPUTot=16 CPULoad=2.00
+   CPUAlloc=6 CPUTot=16 CPULoad=2.97
    AvailableFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    ActiveFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    Gres=(null)
    NodeAddr=i2cmp008 NodeHostName=i2cmp008 Version=20.02.6
    OS=Linux 3.10.0-862.el7.x86_64 #1 SMP Wed Mar 21 18:14:51 EDT 2018 
-   RealMemory=30000 AllocMem=13312 FreeMem=1142 Sockets=2 Boards=1
+   RealMemory=30000 AllocMem=23552 FreeMem=2276 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2500 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-04-08T13:31:20 SlurmdStartTime=2023-05-19T13:41:21
    CfgTRES=cpu=16,mem=30000M,billing=16
-   AllocTRES=cpu=2,mem=13G
+   AllocTRES=cpu=6,mem=23G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=i2cmp009 Arch=x86_64 CoresPerSocket=4 
-   CPUAlloc=2 CPUTot=16 CPULoad=2.01
+   CPUAlloc=6 CPUTot=16 CPULoad=2.98
    AvailableFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    ActiveFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    Gres=(null)
    NodeAddr=i2cmp009 NodeHostName=i2cmp009 Version=20.02.6
    OS=Linux 3.10.0-862.el7.x86_64 #1 SMP Wed Mar 21 18:14:51 EDT 2018 
-   RealMemory=30000 AllocMem=13312 FreeMem=15923 Sockets=2 Boards=1
+   RealMemory=30000 AllocMem=23552 FreeMem=9716 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2500 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-04-08T15:07:26 SlurmdStartTime=2023-05-19T13:41:21
    CfgTRES=cpu=16,mem=30000M,billing=16
-   AllocTRES=cpu=2,mem=13G
+   AllocTRES=cpu=6,mem=23G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
@@ -1253,7 +1253,7 @@ NodeName=i2cmp010 Arch=x86_64 CoresPerSocket=4
    Gres=(null)
    NodeAddr=i2cmp010 NodeHostName=i2cmp010 Version=20.02.6
    OS=Linux 3.10.0-862.el7.x86_64 #1 SMP Wed Mar 21 18:14:51 EDT 2018 
-   RealMemory=120000 AllocMem=65536 FreeMem=103837 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=65536 FreeMem=103820 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=2500 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-04-08T16:33:43 SlurmdStartTime=2023-05-19T13:41:21
@@ -1265,90 +1265,90 @@ NodeName=i2cmp010 Arch=x86_64 CoresPerSocket=4
    
 
 NodeName=i2cmp011 Arch=x86_64 CoresPerSocket=4 
-   CPUAlloc=2 CPUTot=16 CPULoad=1.98
+   CPUAlloc=6 CPUTot=16 CPULoad=3.03
    AvailableFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    ActiveFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    Gres=(null)
    NodeAddr=i2cmp011 NodeHostName=i2cmp011 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=30000 AllocMem=13312 FreeMem=22641 Sockets=2 Boards=1
+   RealMemory=30000 AllocMem=23552 FreeMem=16309 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2500 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-05-13T15:02:31 SlurmdStartTime=2023-05-19T13:41:21
    CfgTRES=cpu=16,mem=30000M,billing=16
-   AllocTRES=cpu=2,mem=13G
+   AllocTRES=cpu=6,mem=23G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=i2cmp012 Arch=x86_64 CoresPerSocket=4 
-   CPUAlloc=2 CPUTot=16 CPULoad=2.01
+   CPUAlloc=6 CPUTot=16 CPULoad=3.04
    AvailableFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    ActiveFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    Gres=(null)
    NodeAddr=i2cmp012 NodeHostName=i2cmp012 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=30000 AllocMem=13312 FreeMem=22821 Sockets=2 Boards=1
+   RealMemory=30000 AllocMem=23552 FreeMem=16308 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2500 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-05-21T16:35:41 SlurmdStartTime=2023-05-19T13:41:21
    CfgTRES=cpu=16,mem=30000M,billing=16
-   AllocTRES=cpu=2,mem=13G
+   AllocTRES=cpu=6,mem=23G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=i2cmp013 Arch=x86_64 CoresPerSocket=4 
-   CPUAlloc=2 CPUTot=16 CPULoad=2.03
+   CPUAlloc=6 CPUTot=16 CPULoad=3.02
    AvailableFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    ActiveFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    Gres=(null)
    NodeAddr=i2cmp013 NodeHostName=i2cmp013 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=30000 AllocMem=13312 FreeMem=22721 Sockets=2 Boards=1
+   RealMemory=30000 AllocMem=23552 FreeMem=17907 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2500 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-05-24T10:32:43 SlurmdStartTime=2023-05-19T13:41:21
    CfgTRES=cpu=16,mem=30000M,billing=16
-   AllocTRES=cpu=2,mem=13G
+   AllocTRES=cpu=6,mem=23G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=i2cmp014 Arch=x86_64 CoresPerSocket=4 
-   CPUAlloc=2 CPUTot=16 CPULoad=1.94
+   CPUAlloc=6 CPUTot=16 CPULoad=3.06
    AvailableFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    ActiveFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    Gres=(null)
    NodeAddr=i2cmp014 NodeHostName=i2cmp014 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=30000 AllocMem=13312 FreeMem=17549 Sockets=2 Boards=1
+   RealMemory=30000 AllocMem=23552 FreeMem=8852 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2500 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-05-26T11:02:10 SlurmdStartTime=2023-05-19T13:41:21
    CfgTRES=cpu=16,mem=30000M,billing=16
-   AllocTRES=cpu=2,mem=13G
+   AllocTRES=cpu=6,mem=23G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=i2cmp015 Arch=x86_64 CoresPerSocket=4 
-   CPUAlloc=2 CPUTot=16 CPULoad=2.00
+   CPUAlloc=6 CPUTot=16 CPULoad=3.02
    AvailableFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    ActiveFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    Gres=(null)
    NodeAddr=i2cmp015 NodeHostName=i2cmp015 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=30000 AllocMem=13312 FreeMem=17001 Sockets=2 Boards=1
+   RealMemory=30000 AllocMem=23552 FreeMem=10445 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2500 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-05-26T11:02:12 SlurmdStartTime=2023-05-19T13:41:21
    CfgTRES=cpu=16,mem=30000M,billing=16
-   AllocTRES=cpu=2,mem=13G
+   AllocTRES=cpu=6,mem=23G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
@@ -1372,49 +1372,49 @@ NodeName=i2cmp016 CoresPerSocket=4
    Reason=disk-errs [root@2023-05-15T12:55:31]
 
 NodeName=i2cmp017 Arch=x86_64 CoresPerSocket=4 
-   CPUAlloc=2 CPUTot=16 CPULoad=2.27
+   CPUAlloc=6 CPUTot=16 CPULoad=2.98
    AvailableFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    ActiveFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    Gres=(null)
    NodeAddr=i2cmp017 NodeHostName=i2cmp017 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=30000 AllocMem=13312 FreeMem=19174 Sockets=2 Boards=1
+   RealMemory=30000 AllocMem=23552 FreeMem=13933 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2500 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2023-02-28T14:27:02 SlurmdStartTime=2023-05-19T13:41:21
    CfgTRES=cpu=16,mem=30000M,billing=16
-   AllocTRES=cpu=2,mem=13G
+   AllocTRES=cpu=6,mem=23G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=i2cmp018 Arch=x86_64 CoresPerSocket=4 
-   CPUAlloc=6 CPUTot=16 CPULoad=4.11
+   CPUAlloc=4 CPUTot=16 CPULoad=3.99
    AvailableFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    ActiveFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    Gres=(null)
    NodeAddr=i2cmp018 NodeHostName=i2cmp018 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=30000 AllocMem=28624 FreeMem=3429 Sockets=2 Boards=1
+   RealMemory=30000 AllocMem=26624 FreeMem=3479 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2500 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2022-01-26T10:56:57 SlurmdStartTime=2023-05-19T13:41:22
    CfgTRES=cpu=16,mem=30000M,billing=16
-   AllocTRES=cpu=6,mem=28624M
+   AllocTRES=cpu=4,mem=26G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=i2cmp019 Arch=x86_64 CoresPerSocket=4 
-   CPUAlloc=4 CPUTot=16 CPULoad=4.03
+   CPUAlloc=4 CPUTot=16 CPULoad=4.01
    AvailableFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    ActiveFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    Gres=(null)
    NodeAddr=i2cmp019 NodeHostName=i2cmp019 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=30000 AllocMem=26624 FreeMem=9314 Sockets=2 Boards=1
+   RealMemory=30000 AllocMem=26624 FreeMem=9130 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2500 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-05-26T15:27:12 SlurmdStartTime=2023-05-19T13:41:21
@@ -1426,13 +1426,13 @@ NodeName=i2cmp019 Arch=x86_64 CoresPerSocket=4
    
 
 NodeName=i2cmp020 Arch=x86_64 CoresPerSocket=4 
-   CPUAlloc=4 CPUTot=16 CPULoad=3.94
+   CPUAlloc=4 CPUTot=16 CPULoad=4.00
    AvailableFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    ActiveFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    Gres=(null)
    NodeAddr=i2cmp020 NodeHostName=i2cmp020 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=30000 AllocMem=26624 FreeMem=4922 Sockets=2 Boards=1
+   RealMemory=30000 AllocMem=26624 FreeMem=4929 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2500 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-05-26T15:27:30 SlurmdStartTime=2023-05-19T13:41:21
@@ -1444,13 +1444,13 @@ NodeName=i2cmp020 Arch=x86_64 CoresPerSocket=4
    
 
 NodeName=i2cmp021 Arch=x86_64 CoresPerSocket=4 
-   CPUAlloc=4 CPUTot=16 CPULoad=4.01
+   CPUAlloc=4 CPUTot=16 CPULoad=4.13
    AvailableFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    ActiveFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    Gres=(null)
    NodeAddr=i2cmp021 NodeHostName=i2cmp021 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=30000 AllocMem=26624 FreeMem=5468 Sockets=2 Boards=1
+   RealMemory=30000 AllocMem=26624 FreeMem=5463 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2500 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-05-26T15:58:10 SlurmdStartTime=2023-05-19T13:41:21
@@ -1462,13 +1462,13 @@ NodeName=i2cmp021 Arch=x86_64 CoresPerSocket=4
    
 
 NodeName=i2cmp022 Arch=x86_64 CoresPerSocket=4 
-   CPUAlloc=4 CPUTot=16 CPULoad=4.00
+   CPUAlloc=4 CPUTot=16 CPULoad=4.02
    AvailableFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    ActiveFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    Gres=(null)
    NodeAddr=i2cmp022 NodeHostName=i2cmp022 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=30000 AllocMem=26624 FreeMem=4985 Sockets=2 Boards=1
+   RealMemory=30000 AllocMem=26624 FreeMem=5030 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2500 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-05-27T11:26:45 SlurmdStartTime=2023-05-19T13:41:22
@@ -1480,13 +1480,13 @@ NodeName=i2cmp022 Arch=x86_64 CoresPerSocket=4
    
 
 NodeName=i2cmp023 Arch=x86_64 CoresPerSocket=4 
-   CPUAlloc=4 CPUTot=16 CPULoad=4.05
+   CPUAlloc=4 CPUTot=16 CPULoad=4.03
    AvailableFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    ActiveFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    Gres=(null)
    NodeAddr=i2cmp023 NodeHostName=i2cmp023 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=30000 AllocMem=26624 FreeMem=7936 Sockets=2 Boards=1
+   RealMemory=30000 AllocMem=26624 FreeMem=7892 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2500 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-05-27T11:37:49 SlurmdStartTime=2023-05-19T13:41:22
@@ -1498,13 +1498,13 @@ NodeName=i2cmp023 Arch=x86_64 CoresPerSocket=4
    
 
 NodeName=i2cmp024 Arch=x86_64 CoresPerSocket=4 
-   CPUAlloc=4 CPUTot=16 CPULoad=3.98
+   CPUAlloc=4 CPUTot=16 CPULoad=4.01
    AvailableFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    ActiveFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    Gres=(null)
    NodeAddr=i2cmp024 NodeHostName=i2cmp024 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=30000 AllocMem=26624 FreeMem=8551 Sockets=2 Boards=1
+   RealMemory=30000 AllocMem=26624 FreeMem=8486 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2500 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-05-27T11:37:58 SlurmdStartTime=2023-05-19T13:41:22
@@ -1516,13 +1516,13 @@ NodeName=i2cmp024 Arch=x86_64 CoresPerSocket=4
    
 
 NodeName=i2cmp025 Arch=x86_64 CoresPerSocket=4 
-   CPUAlloc=4 CPUTot=16 CPULoad=4.00
+   CPUAlloc=4 CPUTot=16 CPULoad=4.09
    AvailableFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    ActiveFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    Gres=(null)
    NodeAddr=i2cmp025 NodeHostName=i2cmp025 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=30000 AllocMem=26624 FreeMem=8113 Sockets=2 Boards=1
+   RealMemory=30000 AllocMem=26624 FreeMem=8035 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2500 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-05-27T11:37:52 SlurmdStartTime=2023-05-19T13:41:22
@@ -1534,13 +1534,13 @@ NodeName=i2cmp025 Arch=x86_64 CoresPerSocket=4
    
 
 NodeName=i2cmp026 Arch=x86_64 CoresPerSocket=4 
-   CPUAlloc=4 CPUTot=16 CPULoad=4.02
+   CPUAlloc=4 CPUTot=16 CPULoad=4.04
    AvailableFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    ActiveFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    Gres=(null)
    NodeAddr=i2cmp026 NodeHostName=i2cmp026 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=30000 AllocMem=26624 FreeMem=8483 Sockets=2 Boards=1
+   RealMemory=30000 AllocMem=26624 FreeMem=8436 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2500 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-05-28T16:26:52 SlurmdStartTime=2023-05-19T13:41:22
@@ -1552,13 +1552,13 @@ NodeName=i2cmp026 Arch=x86_64 CoresPerSocket=4
    
 
 NodeName=i2cmp027 Arch=x86_64 CoresPerSocket=4 
-   CPUAlloc=4 CPUTot=16 CPULoad=4.01
+   CPUAlloc=4 CPUTot=16 CPULoad=4.03
    AvailableFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    ActiveFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    Gres=(null)
    NodeAddr=i2cmp027 NodeHostName=i2cmp027 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=30000 AllocMem=26624 FreeMem=7046 Sockets=2 Boards=1
+   RealMemory=30000 AllocMem=26624 FreeMem=4845 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2500 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-06-01T14:36:37 SlurmdStartTime=2023-05-19T13:41:22
@@ -1570,31 +1570,31 @@ NodeName=i2cmp027 Arch=x86_64 CoresPerSocket=4
    
 
 NodeName=i2cmp028 Arch=x86_64 CoresPerSocket=4 
-   CPUAlloc=4 CPUTot=16 CPULoad=4.02
+   CPUAlloc=2 CPUTot=16 CPULoad=2.05
    AvailableFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    ActiveFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    Gres=(null)
    NodeAddr=i2cmp028 NodeHostName=i2cmp028 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=30000 AllocMem=26624 FreeMem=3092 Sockets=2 Boards=1
+   RealMemory=30000 AllocMem=13312 FreeMem=13242 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2500 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-06-01T16:45:20 SlurmdStartTime=2023-05-19T13:41:22
    CfgTRES=cpu=16,mem=30000M,billing=16
-   AllocTRES=cpu=4,mem=26G
+   AllocTRES=cpu=2,mem=13G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=i2cmp029 Arch=x86_64 CoresPerSocket=4 
-   CPUAlloc=4 CPUTot=16 CPULoad=3.98
+   CPUAlloc=4 CPUTot=16 CPULoad=4.05
    AvailableFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    ActiveFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    Gres=(null)
    NodeAddr=i2cmp029 NodeHostName=i2cmp029 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=30000 AllocMem=26624 FreeMem=8387 Sockets=2 Boards=1
+   RealMemory=30000 AllocMem=26624 FreeMem=8431 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2500 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-06-01T15:26:48 SlurmdStartTime=2023-05-19T13:41:22
@@ -1606,13 +1606,13 @@ NodeName=i2cmp029 Arch=x86_64 CoresPerSocket=4
    
 
 NodeName=i2cmp030 Arch=x86_64 CoresPerSocket=4 
-   CPUAlloc=4 CPUTot=16 CPULoad=4.00
+   CPUAlloc=4 CPUTot=16 CPULoad=4.17
    AvailableFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    ActiveFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    Gres=(null)
    NodeAddr=i2cmp030 NodeHostName=i2cmp030 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=30000 AllocMem=26624 FreeMem=3416 Sockets=2 Boards=1
+   RealMemory=30000 AllocMem=26624 FreeMem=3448 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2500 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-06-01T17:41:38 SlurmdStartTime=2023-05-19T13:41:22
@@ -1624,13 +1624,13 @@ NodeName=i2cmp030 Arch=x86_64 CoresPerSocket=4
    
 
 NodeName=i2cmp031 Arch=x86_64 CoresPerSocket=4 
-   CPUAlloc=4 CPUTot=16 CPULoad=4.00
+   CPUAlloc=4 CPUTot=16 CPULoad=4.07
    AvailableFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    ActiveFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    Gres=(null)
    NodeAddr=i2cmp031 NodeHostName=i2cmp031 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=30000 AllocMem=26624 FreeMem=7132 Sockets=2 Boards=1
+   RealMemory=30000 AllocMem=26624 FreeMem=7190 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2500 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-06-01T17:53:09 SlurmdStartTime=2023-05-19T13:41:22
@@ -1642,13 +1642,13 @@ NodeName=i2cmp031 Arch=x86_64 CoresPerSocket=4
    
 
 NodeName=i2cmp032 Arch=x86_64 CoresPerSocket=4 
-   CPUAlloc=4 CPUTot=16 CPULoad=3.97
+   CPUAlloc=4 CPUTot=16 CPULoad=4.00
    AvailableFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    ActiveFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    Gres=(null)
    NodeAddr=i2cmp032 NodeHostName=i2cmp032 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=30000 AllocMem=26624 FreeMem=6676 Sockets=2 Boards=1
+   RealMemory=30000 AllocMem=26624 FreeMem=6729 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2500 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-06-01T17:53:07 SlurmdStartTime=2023-05-19T13:41:22
@@ -1660,31 +1660,31 @@ NodeName=i2cmp032 Arch=x86_64 CoresPerSocket=4
    
 
 NodeName=i2cmp033 Arch=x86_64 CoresPerSocket=4 
-   CPUAlloc=16 CPUTot=16 CPULoad=1.02
+   CPUAlloc=16 CPUTot=16 CPULoad=1.99
    AvailableFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    ActiveFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    Gres=(null)
    NodeAddr=i2cmp033 NodeHostName=i2cmp033 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=32000 FreeMem=112675 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=65536 FreeMem=116847 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=2500 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-06-02T13:00:14 SlurmdStartTime=2023-05-19T13:41:22
    CfgTRES=cpu=16,mem=120000M,billing=16
-   AllocTRES=cpu=16,mem=32000M
+   AllocTRES=cpu=16,mem=64G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=i2cmp034 Arch=x86_64 CoresPerSocket=4 
-   CPUAlloc=16 CPUTot=16 CPULoad=2.68
+   CPUAlloc=16 CPUTot=16 CPULoad=2.84
    AvailableFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    ActiveFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    Gres=(null)
    NodeAddr=i2cmp034 NodeHostName=i2cmp034 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=112768 FreeMem=38296 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=112768 FreeMem=38205 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=2500 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-06-02T13:00:36 SlurmdStartTime=2023-05-19T13:41:22
@@ -1696,13 +1696,13 @@ NodeName=i2cmp034 Arch=x86_64 CoresPerSocket=4
    
 
 NodeName=i2cmp035 Arch=x86_64 CoresPerSocket=4 
-   CPUAlloc=16 CPUTot=16 CPULoad=1.98
+   CPUAlloc=16 CPUTot=16 CPULoad=2.01
    AvailableFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    ActiveFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    Gres=(null)
    NodeAddr=i2cmp035 NodeHostName=i2cmp035 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=65536 FreeMem=107270 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=65536 FreeMem=107273 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=2500 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-06-02T12:49:23 SlurmdStartTime=2023-05-19T13:41:22
@@ -1714,126 +1714,126 @@ NodeName=i2cmp035 Arch=x86_64 CoresPerSocket=4
    
 
 NodeName=i2cmp037 Arch=x86_64 CoresPerSocket=4 
-   CPUAlloc=2 CPUTot=16 CPULoad=2.03
+   CPUAlloc=6 CPUTot=16 CPULoad=3.05
    AvailableFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    ActiveFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    Gres=(null)
    NodeAddr=i2cmp037 NodeHostName=i2cmp037 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=30000 AllocMem=13312 FreeMem=21994 Sockets=2 Boards=1
+   RealMemory=30000 AllocMem=23552 FreeMem=17111 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2500 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-06-02T16:44:36 SlurmdStartTime=2023-05-19T13:41:23
    CfgTRES=cpu=16,mem=30000M,billing=16
-   AllocTRES=cpu=2,mem=13G
+   AllocTRES=cpu=6,mem=23G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=i2cmp038 Arch=x86_64 CoresPerSocket=4 
-   CPUAlloc=2 CPUTot=16 CPULoad=1.97
+   CPUAlloc=6 CPUTot=16 CPULoad=3.03
    AvailableFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    ActiveFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    Gres=(null)
    NodeAddr=i2cmp038 NodeHostName=i2cmp038 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=30000 AllocMem=13312 FreeMem=22888 Sockets=2 Boards=1
+   RealMemory=30000 AllocMem=23552 FreeMem=17802 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2500 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-06-02T16:55:14 SlurmdStartTime=2023-05-19T13:41:23
    CfgTRES=cpu=16,mem=30000M,billing=16
-   AllocTRES=cpu=2,mem=13G
+   AllocTRES=cpu=6,mem=23G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=i2cmp039 Arch=x86_64 CoresPerSocket=4 
-   CPUAlloc=2 CPUTot=16 CPULoad=1.96
+   CPUAlloc=6 CPUTot=16 CPULoad=3.03
    AvailableFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    ActiveFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    Gres=(null)
    NodeAddr=i2cmp039 NodeHostName=i2cmp039 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=30000 AllocMem=13312 FreeMem=22715 Sockets=2 Boards=1
+   RealMemory=30000 AllocMem=23552 FreeMem=17622 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2500 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-06-03T13:25:40 SlurmdStartTime=2023-05-19T13:41:23
    CfgTRES=cpu=16,mem=30000M,billing=16
-   AllocTRES=cpu=2,mem=13G
+   AllocTRES=cpu=6,mem=23G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=i2cmp040 Arch=x86_64 CoresPerSocket=4 
-   CPUAlloc=2 CPUTot=16 CPULoad=2.00
+   CPUAlloc=6 CPUTot=16 CPULoad=2.99
    AvailableFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    ActiveFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    Gres=(null)
    NodeAddr=i2cmp040 NodeHostName=i2cmp040 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=30000 AllocMem=13312 FreeMem=18757 Sockets=2 Boards=1
+   RealMemory=30000 AllocMem=23552 FreeMem=13266 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2500 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2022-10-28T06:38:27 SlurmdStartTime=2023-05-19T13:41:22
    CfgTRES=cpu=16,mem=30000M,billing=16
-   AllocTRES=cpu=2,mem=13G
+   AllocTRES=cpu=6,mem=23G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=i2cmp041 Arch=x86_64 CoresPerSocket=4 
-   CPUAlloc=2 CPUTot=16 CPULoad=1.97
+   CPUAlloc=6 CPUTot=16 CPULoad=3.00
    AvailableFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    ActiveFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    Gres=(null)
    NodeAddr=i2cmp041 NodeHostName=i2cmp041 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=30000 AllocMem=13312 FreeMem=12776 Sockets=2 Boards=1
+   RealMemory=30000 AllocMem=23552 FreeMem=7217 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2500 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-06-03T13:36:45 SlurmdStartTime=2023-05-19T13:41:23
    CfgTRES=cpu=16,mem=30000M,billing=16
-   AllocTRES=cpu=2,mem=13G
+   AllocTRES=cpu=6,mem=23G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=i2cmp042 Arch=x86_64 CoresPerSocket=4 
-   CPUAlloc=2 CPUTot=16 CPULoad=1.99
+   CPUAlloc=6 CPUTot=16 CPULoad=3.03
    AvailableFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    ActiveFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    Gres=(null)
    NodeAddr=i2cmp042 NodeHostName=i2cmp042 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=30000 AllocMem=13312 FreeMem=17805 Sockets=2 Boards=1
+   RealMemory=30000 AllocMem=23552 FreeMem=12208 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2500 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2022-11-28T13:40:06 SlurmdStartTime=2023-05-19T13:41:23
    CfgTRES=cpu=16,mem=30000M,billing=16
-   AllocTRES=cpu=2,mem=13G
+   AllocTRES=cpu=6,mem=23G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=i2cmp043 Arch=x86_64 CoresPerSocket=4 
-   CPUAlloc=2 CPUTot=16 CPULoad=1.99
+   CPUAlloc=6 CPUTot=16 CPULoad=3.04
    AvailableFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    ActiveFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    Gres=(null)
    NodeAddr=i2cmp043 NodeHostName=i2cmp043 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=30000 AllocMem=13312 FreeMem=22437 Sockets=2 Boards=1
+   RealMemory=30000 AllocMem=23552 FreeMem=15186 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2500 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2023-05-11T12:12:15 SlurmdStartTime=2023-05-19T13:41:23
    CfgTRES=cpu=16,mem=30000M,billing=16
-   AllocTRES=cpu=2,mem=13G
+   AllocTRES=cpu=6,mem=23G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
@@ -1846,7 +1846,7 @@ NodeName=i2cmp044 Arch=x86_64 CoresPerSocket=4
    Gres=(null)
    NodeAddr=i2cmp044 NodeHostName=i2cmp044 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=30000 AllocMem=0 FreeMem=29507 Sockets=2 Boards=1
+   RealMemory=30000 AllocMem=0 FreeMem=29514 Sockets=2 Boards=1
    State=IDLE ThreadsPerCore=2 TmpDisk=0 Weight=2500 Owner=N/A MCS_label=N/A
    BootTime=2022-11-19T11:57:36 SlurmdStartTime=2023-05-19T13:41:23
    CfgTRES=cpu=16,mem=30000M,billing=16
@@ -1857,180 +1857,180 @@ NodeName=i2cmp044 Arch=x86_64 CoresPerSocket=4
    
 
 NodeName=i2cmp045 Arch=x86_64 CoresPerSocket=4 
-   CPUAlloc=2 CPUTot=16 CPULoad=2.06
+   CPUAlloc=6 CPUTot=16 CPULoad=2.97
    AvailableFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    ActiveFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    Gres=(null)
    NodeAddr=i2cmp045 NodeHostName=i2cmp045 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=30000 AllocMem=13312 FreeMem=16418 Sockets=2 Boards=1
+   RealMemory=30000 AllocMem=23552 FreeMem=11795 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2500 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-06-10T10:02:24 SlurmdStartTime=2023-05-19T13:41:23
    CfgTRES=cpu=16,mem=30000M,billing=16
-   AllocTRES=cpu=2,mem=13G
+   AllocTRES=cpu=6,mem=23G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=i2cmp046 Arch=x86_64 CoresPerSocket=4 
-   CPUAlloc=2 CPUTot=16 CPULoad=2.32
+   CPUAlloc=6 CPUTot=16 CPULoad=3.00
    AvailableFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    ActiveFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    Gres=(null)
    NodeAddr=i2cmp046 NodeHostName=i2cmp046 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=30000 AllocMem=13312 FreeMem=14575 Sockets=2 Boards=1
+   RealMemory=30000 AllocMem=23552 FreeMem=9822 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2500 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-06-10T10:12:56 SlurmdStartTime=2023-05-19T13:41:23
    CfgTRES=cpu=16,mem=30000M,billing=16
-   AllocTRES=cpu=2,mem=13G
+   AllocTRES=cpu=6,mem=23G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=i2cmp047 Arch=x86_64 CoresPerSocket=4 
-   CPUAlloc=2 CPUTot=16 CPULoad=1.99
+   CPUAlloc=6 CPUTot=16 CPULoad=3.02
    AvailableFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    ActiveFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    Gres=(null)
    NodeAddr=i2cmp047 NodeHostName=i2cmp047 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=30000 AllocMem=13312 FreeMem=11951 Sockets=2 Boards=1
+   RealMemory=30000 AllocMem=23552 FreeMem=7236 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2500 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-06-10T10:13:15 SlurmdStartTime=2023-05-19T13:41:23
    CfgTRES=cpu=16,mem=30000M,billing=16
-   AllocTRES=cpu=2,mem=13G
+   AllocTRES=cpu=6,mem=23G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=i2cmp048 Arch=x86_64 CoresPerSocket=4 
-   CPUAlloc=2 CPUTot=16 CPULoad=2.03
+   CPUAlloc=6 CPUTot=16 CPULoad=3.00
    AvailableFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    ActiveFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    Gres=(null)
    NodeAddr=i2cmp048 NodeHostName=i2cmp048 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=30000 AllocMem=13312 FreeMem=15230 Sockets=2 Boards=1
+   RealMemory=30000 AllocMem=23552 FreeMem=10349 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2500 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-10-26T15:26:39 SlurmdStartTime=2023-05-19T13:41:23
    CfgTRES=cpu=16,mem=30000M,billing=16
-   AllocTRES=cpu=2,mem=13G
+   AllocTRES=cpu=6,mem=23G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=i2cmp049 Arch=x86_64 CoresPerSocket=4 
-   CPUAlloc=2 CPUTot=16 CPULoad=1.98
+   CPUAlloc=6 CPUTot=16 CPULoad=2.99
    AvailableFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    ActiveFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    Gres=(null)
    NodeAddr=i2cmp049 NodeHostName=i2cmp049 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=30000 AllocMem=13312 FreeMem=12108 Sockets=2 Boards=1
+   RealMemory=30000 AllocMem=23552 FreeMem=7408 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2500 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-06-02T18:01:01 SlurmdStartTime=2023-05-19T13:41:23
    CfgTRES=cpu=16,mem=30000M,billing=16
-   AllocTRES=cpu=2,mem=13G
+   AllocTRES=cpu=6,mem=23G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=i2cmp050 Arch=x86_64 CoresPerSocket=4 
-   CPUAlloc=2 CPUTot=16 CPULoad=2.01
+   CPUAlloc=6 CPUTot=16 CPULoad=2.98
    AvailableFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    ActiveFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    Gres=(null)
    NodeAddr=i2cmp050 NodeHostName=i2cmp050 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=30000 AllocMem=13312 FreeMem=15918 Sockets=2 Boards=1
+   RealMemory=30000 AllocMem=23552 FreeMem=11188 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2500 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-06-10T12:46:14 SlurmdStartTime=2023-05-19T13:41:23
    CfgTRES=cpu=16,mem=30000M,billing=16
-   AllocTRES=cpu=2,mem=13G
+   AllocTRES=cpu=6,mem=23G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=i2cmp051 Arch=x86_64 CoresPerSocket=4 
-   CPUAlloc=2 CPUTot=16 CPULoad=1.99
+   CPUAlloc=6 CPUTot=16 CPULoad=3.01
    AvailableFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    ActiveFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    Gres=(null)
    NodeAddr=i2cmp051 NodeHostName=i2cmp051 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=30000 AllocMem=13312 FreeMem=6741 Sockets=2 Boards=1
+   RealMemory=30000 AllocMem=23552 FreeMem=2407 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2500 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-09-01T16:27:15 SlurmdStartTime=2023-05-19T13:41:23
    CfgTRES=cpu=16,mem=30000M,billing=16
-   AllocTRES=cpu=2,mem=13G
+   AllocTRES=cpu=6,mem=23G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=i2cmp052 Arch=x86_64 CoresPerSocket=4 
-   CPUAlloc=2 CPUTot=16 CPULoad=2.04
+   CPUAlloc=6 CPUTot=16 CPULoad=2.96
    AvailableFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    ActiveFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    Gres=(null)
    NodeAddr=i2cmp052 NodeHostName=i2cmp052 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=30000 AllocMem=13312 FreeMem=16688 Sockets=2 Boards=1
+   RealMemory=30000 AllocMem=23552 FreeMem=7630 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2500 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-10-26T15:32:55 SlurmdStartTime=2023-05-19T13:41:23
    CfgTRES=cpu=16,mem=30000M,billing=16
-   AllocTRES=cpu=2,mem=13G
+   AllocTRES=cpu=6,mem=23G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=i2cmp053 Arch=x86_64 CoresPerSocket=4 
-   CPUAlloc=2 CPUTot=16 CPULoad=2.04
+   CPUAlloc=6 CPUTot=16 CPULoad=2.95
    AvailableFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    ActiveFeatures=M4,rhel7,sandy_bridge_ep,avx,sse4_2
    Gres=(null)
    NodeAddr=i2cmp053 NodeHostName=i2cmp053 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=30000 AllocMem=13312 FreeMem=17822 Sockets=2 Boards=1
+   RealMemory=30000 AllocMem=23552 FreeMem=10076 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=2500 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-06-10T12:21:28 SlurmdStartTime=2023-05-19T13:41:23
    CfgTRES=cpu=16,mem=30000M,billing=16
-   AllocTRES=cpu=2,mem=13G
+   AllocTRES=cpu=6,mem=23G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=i2cmp055 Arch=x86_64 CoresPerSocket=4 
-   CPUAlloc=8 CPUTot=16 CPULoad=1.98
+   CPUAlloc=16 CPUTot=16 CPULoad=4.01
    AvailableFeatures=rhel7,sandy_bridge_ep,avx,sse4_2
    ActiveFeatures=rhel7,sandy_bridge_ep,avx,sse4_2
    Gres=(null)
    NodeAddr=i2cmp055 NodeHostName=i2cmp055 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=356000 AllocMem=32768 FreeMem=368421 Sockets=2 Boards=1
-   State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
+   RealMemory=356000 AllocMem=40960 FreeMem=365296 Sockets=2 Boards=1
+   State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=largemem 
-   BootTime=2021-03-30T16:17:35 SlurmdStartTime=2023-05-19T13:41:21
+   BootTime=2021-03-30T16:17:34 SlurmdStartTime=2023-05-19T13:41:21
    CfgTRES=cpu=16,mem=356000M,billing=16
-   AllocTRES=cpu=8,mem=32G
+   AllocTRES=cpu=16,mem=40G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
@@ -2155,7 +2155,7 @@ NodeName=p1cmp001 Arch=x86_64 CoresPerSocket=18
    Gres=(null)
    NodeAddr=p1cmp001 NodeHostName=p1cmp001 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=248000 AllocMem=0 FreeMem=246708 Sockets=2 Boards=1
+   RealMemory=248000 AllocMem=0 FreeMem=246715 Sockets=2 Boards=1
    State=RESERVED ThreadsPerCore=2 TmpDisk=0 Weight=3000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi 
    BootTime=2022-09-29T20:41:58 SlurmdStartTime=2023-05-19T13:41:15
@@ -2167,31 +2167,31 @@ NodeName=p1cmp001 Arch=x86_64 CoresPerSocket=18
    
 
 NodeName=p1cmp003 Arch=x86_64 CoresPerSocket=18 
-   CPUAlloc=72 CPUTot=72 CPULoad=35.95
+   CPUAlloc=72 CPUTot=72 CPULoad=34.01
    AvailableFeatures=rhel7,broadwell,avx2,avx,sse4_2
    ActiveFeatures=rhel7,broadwell,avx2,avx,sse4_2
    Gres=(null)
    NodeAddr=p1cmp003 NodeHostName=p1cmp003 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=128000 AllocMem=38800 FreeMem=99934 Sockets=2 Boards=1
+   RealMemory=128000 AllocMem=27280 FreeMem=102739 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=3000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi,preempt 
-   BootTime=2022-12-16T11:54:13 SlurmdStartTime=2023-05-19T13:41:17
+   BootTime=2022-12-16T11:54:12 SlurmdStartTime=2023-05-19T13:41:17
    CfgTRES=cpu=72,mem=125G,billing=72
-   AllocTRES=cpu=72,mem=38800M
+   AllocTRES=cpu=72,mem=27280M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp004 Arch=x86_64 CoresPerSocket=18 
-   CPUAlloc=4 CPUTot=72 CPULoad=0.01
+   CPUAlloc=4 CPUTot=72 CPULoad=0.02
    AvailableFeatures=broadwell,avx2,avx,sse4_2,rhel7
    ActiveFeatures=broadwell,avx2,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=p1cmp004 NodeHostName=p1cmp004 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=248000 AllocMem=64000 FreeMem=237248 Sockets=2 Boards=1
+   RealMemory=248000 AllocMem=64000 FreeMem=231442 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi,preempt 
    BootTime=2021-03-11T13:29:24 SlurmdStartTime=2023-05-19T13:41:20
@@ -2203,306 +2203,306 @@ NodeName=p1cmp004 Arch=x86_64 CoresPerSocket=18
    
 
 NodeName=p1cmp005 Arch=x86_64 CoresPerSocket=18 
-   CPUAlloc=72 CPUTot=72 CPULoad=35.43
+   CPUAlloc=72 CPUTot=72 CPULoad=35.95
    AvailableFeatures=broadwell,avx2,avx,sse4_2,rhel7
    ActiveFeatures=broadwell,avx2,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=p1cmp005 NodeHostName=p1cmp005 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=248000 AllocMem=38800 FreeMem=29783 Sockets=2 Boards=1
+   RealMemory=248000 AllocMem=27280 FreeMem=26998 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi,preempt 
    BootTime=2023-04-11T09:16:55 SlurmdStartTime=2023-05-19T13:41:20
    CfgTRES=cpu=72,mem=248000M,billing=72
-   AllocTRES=cpu=72,mem=38800M
+   AllocTRES=cpu=72,mem=27280M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp006 Arch=x86_64 CoresPerSocket=18 
-   CPUAlloc=72 CPUTot=72 CPULoad=35.99
+   CPUAlloc=66 CPUTot=72 CPULoad=29.54
    AvailableFeatures=broadwell,avx2,avx,sse4_2,rhel7
    ActiveFeatures=broadwell,avx2,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=p1cmp006 NodeHostName=p1cmp006 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=248000 AllocMem=38800 FreeMem=82131 Sockets=2 Boards=1
-   State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
+   RealMemory=248000 AllocMem=132424 FreeMem=28026 Sockets=2 Boards=1
+   State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi,preempt 
    BootTime=2021-03-11T13:47:13 SlurmdStartTime=2023-05-19T13:41:20
    CfgTRES=cpu=72,mem=248000M,billing=72
-   AllocTRES=cpu=72,mem=38800M
+   AllocTRES=cpu=66,mem=132424M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp007 Arch=x86_64 CoresPerSocket=18 
-   CPUAlloc=68 CPUTot=72 CPULoad=28.69
+   CPUAlloc=68 CPUTot=72 CPULoad=21.87
    AvailableFeatures=broadwell,avx2,avx,sse4_2,rhel7
    ActiveFeatures=broadwell,avx2,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=p1cmp007 NodeHostName=p1cmp007 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=248000 AllocMem=234440 FreeMem=47576 Sockets=2 Boards=1
+   RealMemory=248000 AllocMem=168264 FreeMem=32605 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi,preempt 
    BootTime=2021-04-08T11:38:27 SlurmdStartTime=2023-05-19T13:41:20
    CfgTRES=cpu=72,mem=248000M,billing=72
-   AllocTRES=cpu=68,mem=234440M
+   AllocTRES=cpu=68,mem=168264M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp008 Arch=x86_64 CoresPerSocket=18 
-   CPUAlloc=72 CPUTot=72 CPULoad=35.30
+   CPUAlloc=70 CPUTot=72 CPULoad=24.40
    AvailableFeatures=broadwell,avx2,avx,sse4_2,rhel7
    ActiveFeatures=broadwell,avx2,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=p1cmp008 NodeHostName=p1cmp008 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=248000 AllocMem=38800 FreeMem=191160 Sockets=2 Boards=1
-   State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
+   RealMemory=248000 AllocMem=208712 FreeMem=186021 Sockets=2 Boards=1
+   State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi,preempt 
    BootTime=2021-04-08T12:37:35 SlurmdStartTime=2023-05-19T13:41:20
    CfgTRES=cpu=72,mem=248000M,billing=72
-   AllocTRES=cpu=72,mem=38800M
+   AllocTRES=cpu=70,mem=208712M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp009 Arch=x86_64 CoresPerSocket=18 
-   CPUAlloc=72 CPUTot=72 CPULoad=35.93
+   CPUAlloc=72 CPUTot=72 CPULoad=34.00
    AvailableFeatures=broadwell,avx2,avx,sse4_2,rhel7
    ActiveFeatures=broadwell,avx2,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=p1cmp009 NodeHostName=p1cmp009 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=248000 AllocMem=38800 FreeMem=235689 Sockets=2 Boards=1
+   RealMemory=248000 AllocMem=27280 FreeMem=236859 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi,preempt 
    BootTime=2021-03-11T14:57:41 SlurmdStartTime=2023-05-19T13:41:20
    CfgTRES=cpu=72,mem=248000M,billing=72
-   AllocTRES=cpu=72,mem=38800M
+   AllocTRES=cpu=72,mem=27280M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp010 Arch=x86_64 CoresPerSocket=18 
-   CPUAlloc=72 CPUTot=72 CPULoad=35.95
+   CPUAlloc=72 CPUTot=72 CPULoad=88.91
    AvailableFeatures=broadwell,avx2,avx,sse4_2,rhel7
    ActiveFeatures=broadwell,avx2,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=p1cmp010 NodeHostName=p1cmp010 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=248000 AllocMem=38800 FreeMem=216732 Sockets=2 Boards=1
+   RealMemory=248000 AllocMem=235848 FreeMem=123098 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi,preempt 
    BootTime=2021-06-03T11:20:49 SlurmdStartTime=2023-05-19T13:41:20
    CfgTRES=cpu=72,mem=248000M,billing=72
-   AllocTRES=cpu=72,mem=38800M
+   AllocTRES=cpu=72,mem=235848M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp011 Arch=x86_64 CoresPerSocket=18 
-   CPUAlloc=72 CPUTot=72 CPULoad=35.40
+   CPUAlloc=70 CPUTot=72 CPULoad=64.00
    AvailableFeatures=broadwell,avx2,avx,sse4_2,rhel7
    ActiveFeatures=broadwell,avx2,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=p1cmp011 NodeHostName=p1cmp011 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=248000 AllocMem=38800 FreeMem=212456 Sockets=2 Boards=1
-   State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
+   RealMemory=248000 AllocMem=213320 FreeMem=118997 Sockets=2 Boards=1
+   State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi,preempt 
    BootTime=2021-03-16T14:01:17 SlurmdStartTime=2023-05-19T13:41:20
    CfgTRES=cpu=72,mem=248000M,billing=72
-   AllocTRES=cpu=72,mem=38800M
+   AllocTRES=cpu=70,mem=213320M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp012 Arch=x86_64 CoresPerSocket=18 
-   CPUAlloc=72 CPUTot=72 CPULoad=35.77
+   CPUAlloc=72 CPUTot=72 CPULoad=35.02
    AvailableFeatures=broadwell,avx2,avx,sse4_2,rhel7
    ActiveFeatures=broadwell,avx2,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=p1cmp012 NodeHostName=p1cmp012 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=248000 AllocMem=38800 FreeMem=230529 Sockets=2 Boards=1
+   RealMemory=248000 AllocMem=27280 FreeMem=229177 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi,preempt 
    BootTime=2021-03-16T14:20:22 SlurmdStartTime=2023-05-19T13:41:20
    CfgTRES=cpu=72,mem=248000M,billing=72
-   AllocTRES=cpu=72,mem=38800M
+   AllocTRES=cpu=72,mem=27280M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp013 Arch=x86_64 CoresPerSocket=18 
-   CPUAlloc=72 CPUTot=72 CPULoad=35.67
+   CPUAlloc=68 CPUTot=72 CPULoad=33.98
    AvailableFeatures=broadwell,avx2,avx,sse4_2,rhel7
    ActiveFeatures=broadwell,avx2,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=p1cmp013 NodeHostName=p1cmp013 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=248000 AllocMem=137872 FreeMem=207860 Sockets=2 Boards=1
-   State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
+   RealMemory=248000 AllocMem=6800 FreeMem=220837 Sockets=2 Boards=1
+   State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi,preempt 
    BootTime=2021-03-16T14:33:58 SlurmdStartTime=2023-05-19T13:41:20
    CfgTRES=cpu=72,mem=248000M,billing=72
-   AllocTRES=cpu=72,mem=137872M
+   AllocTRES=cpu=68,mem=6800M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp014 Arch=x86_64 CoresPerSocket=18 
-   CPUAlloc=72 CPUTot=72 CPULoad=35.76
+   CPUAlloc=70 CPUTot=72 CPULoad=34.06
    AvailableFeatures=broadwell,avx2,avx,sse4_2,rhel7
    ActiveFeatures=broadwell,avx2,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=p1cmp014 NodeHostName=p1cmp014 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=248000 AllocMem=38800 FreeMem=235732 Sockets=2 Boards=1
-   State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
+   RealMemory=248000 AllocMem=17040 FreeMem=238199 Sockets=2 Boards=1
+   State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi,preempt 
    BootTime=2022-06-10T00:13:51 SlurmdStartTime=2023-05-19T13:41:21
    CfgTRES=cpu=72,mem=248000M,billing=72
-   AllocTRES=cpu=72,mem=38800M
+   AllocTRES=cpu=70,mem=17040M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp015 Arch=x86_64 CoresPerSocket=18 
-   CPUAlloc=72 CPUTot=72 CPULoad=35.52
+   CPUAlloc=72 CPUTot=72 CPULoad=89.12
    AvailableFeatures=broadwell,avx2,avx,sse4_2,rhel7
    ActiveFeatures=broadwell,avx2,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=p1cmp015 NodeHostName=p1cmp015 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=248000 AllocMem=38800 FreeMem=220408 Sockets=2 Boards=1
+   RealMemory=248000 AllocMem=235848 FreeMem=132992 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi,preempt 
    BootTime=2021-03-16T15:14:41 SlurmdStartTime=2023-05-19T13:41:20
    CfgTRES=cpu=72,mem=248000M,billing=72
-   AllocTRES=cpu=72,mem=38800M
+   AllocTRES=cpu=72,mem=235848M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp016 Arch=x86_64 CoresPerSocket=18 
-   CPUAlloc=72 CPUTot=72 CPULoad=35.94
+   CPUAlloc=72 CPUTot=72 CPULoad=33.94
    AvailableFeatures=broadwell,avx2,avx,sse4_2,rhel7
    ActiveFeatures=broadwell,avx2,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=p1cmp016 NodeHostName=p1cmp016 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=248000 AllocMem=38800 FreeMem=169831 Sockets=2 Boards=1
+   RealMemory=248000 AllocMem=27280 FreeMem=172455 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi,preempt 
    BootTime=2023-05-11T12:31:36 SlurmdStartTime=2023-05-19T13:41:20
    CfgTRES=cpu=72,mem=248000M,billing=72
-   AllocTRES=cpu=72,mem=38800M
+   AllocTRES=cpu=72,mem=27280M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp017 Arch=x86_64 CoresPerSocket=18 
-   CPUAlloc=72 CPUTot=72 CPULoad=35.71
+   CPUAlloc=72 CPUTot=72 CPULoad=34.01
    AvailableFeatures=broadwell,avx2,avx,sse4_2,rhel7
    ActiveFeatures=broadwell,avx2,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=p1cmp017 NodeHostName=p1cmp017 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=248000 AllocMem=38800 FreeMem=235040 Sockets=2 Boards=1
+   RealMemory=248000 AllocMem=27280 FreeMem=236625 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi,preempt 
    BootTime=2021-03-16T15:53:13 SlurmdStartTime=2023-05-19T13:41:20
    CfgTRES=cpu=72,mem=248000M,billing=72
-   AllocTRES=cpu=72,mem=38800M
+   AllocTRES=cpu=72,mem=27280M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp018 Arch=x86_64 CoresPerSocket=18 
-   CPUAlloc=72 CPUTot=72 CPULoad=35.78
+   CPUAlloc=72 CPUTot=72 CPULoad=34.03
    AvailableFeatures=broadwell,avx2,avx,sse4_2,rhel7
    ActiveFeatures=broadwell,avx2,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=p1cmp018 NodeHostName=p1cmp018 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=248000 AllocMem=38800 FreeMem=202937 Sockets=2 Boards=1
+   RealMemory=248000 AllocMem=27280 FreeMem=205330 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi,preempt 
    BootTime=2021-03-17T14:54:56 SlurmdStartTime=2023-05-19T13:41:21
    CfgTRES=cpu=72,mem=248000M,billing=72
-   AllocTRES=cpu=72,mem=38800M
+   AllocTRES=cpu=72,mem=27280M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp019 Arch=x86_64 CoresPerSocket=18 
-   CPUAlloc=72 CPUTot=72 CPULoad=35.81
+   CPUAlloc=72 CPUTot=72 CPULoad=35.02
    AvailableFeatures=broadwell,avx2,avx,sse4_2,rhel7
    ActiveFeatures=broadwell,avx2,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=p1cmp019 NodeHostName=p1cmp019 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=248000 AllocMem=38800 FreeMem=227142 Sockets=2 Boards=1
+   RealMemory=248000 AllocMem=27280 FreeMem=225318 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi,preempt 
    BootTime=2021-03-17T15:08:59 SlurmdStartTime=2023-05-19T13:41:21
    CfgTRES=cpu=72,mem=248000M,billing=72
-   AllocTRES=cpu=72,mem=38800M
+   AllocTRES=cpu=72,mem=27280M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp020 Arch=x86_64 CoresPerSocket=18 
-   CPUAlloc=72 CPUTot=72 CPULoad=35.99
+   CPUAlloc=70 CPUTot=72 CPULoad=34.04
    AvailableFeatures=broadwell,avx2,avx,sse4_2,rhel7
    ActiveFeatures=broadwell,avx2,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=p1cmp020 NodeHostName=p1cmp020 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=248000 AllocMem=38800 FreeMem=216664 Sockets=2 Boards=1
-   State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
+   RealMemory=248000 AllocMem=17040 FreeMem=219187 Sockets=2 Boards=1
+   State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi,preempt 
    BootTime=2021-05-25T10:38:55 SlurmdStartTime=2023-05-19T13:41:20
    CfgTRES=cpu=72,mem=248000M,billing=72
-   AllocTRES=cpu=72,mem=38800M
+   AllocTRES=cpu=70,mem=17040M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp021 Arch=x86_64 CoresPerSocket=18 
-   CPUAlloc=72 CPUTot=72 CPULoad=35.97
+   CPUAlloc=72 CPUTot=72 CPULoad=33.98
    AvailableFeatures=broadwell,avx2,avx,sse4_2,rhel7
    ActiveFeatures=broadwell,avx2,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=p1cmp021 NodeHostName=p1cmp021 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=248000 AllocMem=38800 FreeMem=225533 Sockets=2 Boards=1
+   RealMemory=248000 AllocMem=27280 FreeMem=222862 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi,preempt 
    BootTime=2021-05-25T10:38:27 SlurmdStartTime=2023-05-19T13:41:20
    CfgTRES=cpu=72,mem=248000M,billing=72
-   AllocTRES=cpu=72,mem=38800M
+   AllocTRES=cpu=72,mem=27280M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
@@ -2560,268 +2560,268 @@ NodeName=p1cmp024 CoresPerSocket=18
    Reason=starfish-update [root@2023-01-05T16:19:21]
 
 NodeName=p1cmp025 Arch=x86_64 CoresPerSocket=18 
-   CPUAlloc=72 CPUTot=72 CPULoad=33.77
+   CPUAlloc=72 CPUTot=72 CPULoad=35.65
    AvailableFeatures=(null)
    ActiveFeatures=(null)
    Gres=(null)
    NodeAddr=p1cmp025 NodeHostName=p1cmp025 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=250000 AllocMem=31376 FreeMem=76579 Sockets=2 Boards=1
+   RealMemory=250000 AllocMem=136336 FreeMem=34317 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi,preempt 
    BootTime=2022-10-14T15:08:01 SlurmdStartTime=2023-05-19T13:41:24
    CfgTRES=cpu=72,mem=250000M,billing=72
-   AllocTRES=cpu=72,mem=31376M
+   AllocTRES=cpu=72,mem=136336M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp026 Arch=x86_64 CoresPerSocket=18 
-   CPUAlloc=72 CPUTot=72 CPULoad=35.76
+   CPUAlloc=70 CPUTot=72 CPULoad=33.87
    AvailableFeatures=(null)
    ActiveFeatures=(null)
    Gres=(null)
    NodeAddr=p1cmp026 NodeHostName=p1cmp026 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=250000 AllocMem=38800 FreeMem=41301 Sockets=2 Boards=1
-   State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   RealMemory=250000 AllocMem=17040 FreeMem=37477 Sockets=2 Boards=1
+   State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi,preempt 
    BootTime=2022-10-14T15:08:02 SlurmdStartTime=2023-05-19T13:41:24
    CfgTRES=cpu=72,mem=250000M,billing=72
-   AllocTRES=cpu=72,mem=38800M
+   AllocTRES=cpu=70,mem=17040M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp028 Arch=x86_64 CoresPerSocket=20 
-   CPUAlloc=80 CPUTot=80 CPULoad=34.96
+   CPUAlloc=76 CPUTot=80 CPULoad=35.06
    AvailableFeatures=(null)
    ActiveFeatures=(null)
    Gres=(null)
    NodeAddr=p1cmp028 NodeHostName=p1cmp028 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=188000 AllocMem=131376 FreeMem=48762 Sockets=2 Boards=1
-   State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   RealMemory=188000 AllocMem=106800 FreeMem=31882 Sockets=2 Boards=1
+   State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi,preempt 
    BootTime=2022-10-14T15:07:31 SlurmdStartTime=2023-05-19T13:41:24
    CfgTRES=cpu=80,mem=188000M,billing=80
-   AllocTRES=cpu=80,mem=131376M
+   AllocTRES=cpu=76,mem=106800M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp029 Arch=x86_64 CoresPerSocket=20 
-   CPUAlloc=80 CPUTot=80 CPULoad=37.93
+   CPUAlloc=78 CPUTot=80 CPULoad=37.08
    AvailableFeatures=(null)
    ActiveFeatures=(null)
    Gres=(null)
    NodeAddr=p1cmp029 NodeHostName=p1cmp029 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=188000 AllocMem=79376 FreeMem=29302 Sockets=2 Boards=1
-   State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   RealMemory=188000 AllocMem=37520 FreeMem=18084 Sockets=2 Boards=1
+   State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi,preempt 
    BootTime=2022-10-14T14:59:53 SlurmdStartTime=2023-05-19T13:41:24
    CfgTRES=cpu=80,mem=188000M,billing=80
-   AllocTRES=cpu=80,mem=79376M
+   AllocTRES=cpu=78,mem=37520M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp031 Arch=x86_64 CoresPerSocket=18 
-   CPUAlloc=32 CPUTot=72 CPULoad=68.39
+   CPUAlloc=36 CPUTot=72 CPULoad=74.24
    AvailableFeatures=rhel7,broadwell,avx2,avx,sse4_2
    ActiveFeatures=rhel7,broadwell,avx2,avx,sse4_2
    Gres=(null)
    NodeAddr=p1cmp031 NodeHostName=p1cmp031 Version=20.02.6
    OS=Linux 3.10.0-862.14.4.el7.x86_64 #1 SMP Fri Sep 21 09:07:21 UTC 2018 
-   RealMemory=500000 AllocMem=480000 FreeMem=72585 Sockets=2 Boards=1
+   RealMemory=500000 AllocMem=490240 FreeMem=30309 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=6000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
-   BootTime=2023-02-02T13:28:16 SlurmdStartTime=2023-05-19T13:41:16
+   BootTime=2023-02-02T13:28:15 SlurmdStartTime=2023-05-19T13:41:16
    CfgTRES=cpu=72,mem=500000M,billing=72
-   AllocTRES=cpu=32,mem=480000M
+   AllocTRES=cpu=36,mem=490240M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp032 Arch=x86_64 CoresPerSocket=18 
-   CPUAlloc=32 CPUTot=72 CPULoad=38.65
+   CPUAlloc=36 CPUTot=72 CPULoad=81.74
    AvailableFeatures=rhel7,broadwell,avx2,avx,sse4_2
    ActiveFeatures=rhel7,broadwell,avx2,avx,sse4_2
    Gres=(null)
    NodeAddr=p1cmp032 NodeHostName=p1cmp032 Version=20.02.6
    OS=Linux 3.10.0-862.14.4.el7.x86_64 #1 SMP Fri Sep 21 09:07:21 UTC 2018 
-   RealMemory=500000 AllocMem=480000 FreeMem=80436 Sockets=2 Boards=1
+   RealMemory=500000 AllocMem=490240 FreeMem=68822 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=6000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
-   BootTime=2023-02-02T12:22:35 SlurmdStartTime=2023-05-19T13:41:16
+   BootTime=2023-02-02T12:22:36 SlurmdStartTime=2023-05-19T13:41:16
    CfgTRES=cpu=72,mem=500000M,billing=72
-   AllocTRES=cpu=32,mem=480000M
+   AllocTRES=cpu=36,mem=490240M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp033 Arch=x86_64 CoresPerSocket=18 
-   CPUAlloc=32 CPUTot=72 CPULoad=62.34
+   CPUAlloc=36 CPUTot=72 CPULoad=61.61
    AvailableFeatures=rhel7,broadwell,avx2,avx,sse4_2
    ActiveFeatures=rhel7,broadwell,avx2,avx,sse4_2
    Gres=(null)
    NodeAddr=p1cmp033 NodeHostName=p1cmp033 Version=20.02.6
    OS=Linux 3.10.0-862.14.4.el7.x86_64 #1 SMP Fri Sep 21 09:07:21 UTC 2018 
-   RealMemory=500000 AllocMem=480000 FreeMem=64348 Sockets=2 Boards=1
+   RealMemory=500000 AllocMem=490240 FreeMem=47248 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=6000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
-   BootTime=2023-04-21T10:39:50 SlurmdStartTime=2023-05-19T13:41:16
+   BootTime=2023-04-21T10:39:51 SlurmdStartTime=2023-05-19T13:41:16
    CfgTRES=cpu=72,mem=500000M,billing=72
-   AllocTRES=cpu=32,mem=480000M
+   AllocTRES=cpu=36,mem=490240M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp034 Arch=x86_64 CoresPerSocket=18 
-   CPUAlloc=32 CPUTot=72 CPULoad=54.57
+   CPUAlloc=36 CPUTot=72 CPULoad=60.05
    AvailableFeatures=rhel7,broadwell,avx2,avx,sse4_2
    ActiveFeatures=rhel7,broadwell,avx2,avx,sse4_2
    Gres=(null)
    NodeAddr=p1cmp034 NodeHostName=p1cmp034 Version=20.02.6
    OS=Linux 3.10.0-862.14.4.el7.x86_64 #1 SMP Fri Sep 21 09:07:21 UTC 2018 
-   RealMemory=500000 AllocMem=480000 FreeMem=84269 Sockets=2 Boards=1
+   RealMemory=500000 AllocMem=490240 FreeMem=43203 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=6000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
-   BootTime=2023-02-02T13:13:50 SlurmdStartTime=2023-05-19T13:41:16
+   BootTime=2023-02-02T13:13:51 SlurmdStartTime=2023-05-19T13:41:16
    CfgTRES=cpu=72,mem=500000M,billing=72
-   AllocTRES=cpu=32,mem=480000M
+   AllocTRES=cpu=36,mem=490240M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp035 Arch=x86_64 CoresPerSocket=18 
-   CPUAlloc=32 CPUTot=72 CPULoad=36.04
+   CPUAlloc=36 CPUTot=72 CPULoad=57.72
    AvailableFeatures=rhel7,broadwell,avx2,avx,sse4_2
    ActiveFeatures=rhel7,broadwell,avx2,avx,sse4_2
    Gres=(null)
    NodeAddr=p1cmp035 NodeHostName=p1cmp035 Version=20.02.6
    OS=Linux 3.10.0-862.14.4.el7.x86_64 #1 SMP Fri Sep 21 09:07:21 UTC 2018 
-   RealMemory=500000 AllocMem=480000 FreeMem=48367 Sockets=2 Boards=1
+   RealMemory=500000 AllocMem=490240 FreeMem=102822 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=6000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
-   BootTime=2023-04-20T09:30:01 SlurmdStartTime=2023-05-19T13:41:16
+   BootTime=2023-04-20T09:30:02 SlurmdStartTime=2023-05-19T13:41:16
    CfgTRES=cpu=72,mem=500000M,billing=72
-   AllocTRES=cpu=32,mem=480000M
+   AllocTRES=cpu=36,mem=490240M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp036 Arch=x86_64 CoresPerSocket=18 
-   CPUAlloc=32 CPUTot=72 CPULoad=33.96
+   CPUAlloc=36 CPUTot=72 CPULoad=39.61
    AvailableFeatures=rhel7,broadwell,avx2,avx,sse4_2
    ActiveFeatures=rhel7,broadwell,avx2,avx,sse4_2
    Gres=(null)
    NodeAddr=p1cmp036 NodeHostName=p1cmp036 Version=20.02.6
    OS=Linux 3.10.0-862.14.4.el7.x86_64 #1 SMP Fri Sep 21 09:07:21 UTC 2018 
-   RealMemory=500000 AllocMem=480000 FreeMem=122590 Sockets=2 Boards=1
+   RealMemory=500000 AllocMem=490240 FreeMem=118997 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=6000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
-   BootTime=2023-02-02T13:18:49 SlurmdStartTime=2023-05-19T13:41:16
+   BootTime=2023-02-02T13:18:50 SlurmdStartTime=2023-05-19T13:41:16
    CfgTRES=cpu=72,mem=500000M,billing=72
-   AllocTRES=cpu=32,mem=480000M
+   AllocTRES=cpu=36,mem=490240M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp037 Arch=x86_64 CoresPerSocket=18 
-   CPUAlloc=32 CPUTot=72 CPULoad=32.99
+   CPUAlloc=36 CPUTot=72 CPULoad=103.15
    AvailableFeatures=rhel7,broadwell,avx2,avx,sse4_2
    ActiveFeatures=rhel7,broadwell,avx2,avx,sse4_2
    Gres=(null)
    NodeAddr=p1cmp037 NodeHostName=p1cmp037 Version=20.02.6
    OS=Linux 3.10.0-862.14.4.el7.x86_64 #1 SMP Fri Sep 21 09:07:21 UTC 2018 
-   RealMemory=500000 AllocMem=480000 FreeMem=87366 Sockets=2 Boards=1
+   RealMemory=500000 AllocMem=490240 FreeMem=6730 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=6000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
-   BootTime=2023-02-02T13:21:23 SlurmdStartTime=2023-05-19T13:41:16
+   BootTime=2023-02-02T13:21:24 SlurmdStartTime=2023-05-19T13:41:16
    CfgTRES=cpu=72,mem=500000M,billing=72
-   AllocTRES=cpu=32,mem=480000M
+   AllocTRES=cpu=36,mem=490240M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp038 Arch=x86_64 CoresPerSocket=18 
-   CPUAlloc=32 CPUTot=72 CPULoad=40.77
+   CPUAlloc=36 CPUTot=72 CPULoad=73.33
    AvailableFeatures=rhel7,broadwell,avx2,avx,sse4_2
    ActiveFeatures=rhel7,broadwell,avx2,avx,sse4_2
    Gres=(null)
    NodeAddr=p1cmp038 NodeHostName=p1cmp038 Version=20.02.6
    OS=Linux 3.10.0-862.14.4.el7.x86_64 #1 SMP Fri Sep 21 09:07:21 UTC 2018 
-   RealMemory=500000 AllocMem=480000 FreeMem=294718 Sockets=2 Boards=1
+   RealMemory=500000 AllocMem=490240 FreeMem=243674 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=6000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
-   BootTime=2023-05-22T10:14:43 SlurmdStartTime=2023-05-22T10:15:00
+   BootTime=2023-05-22T10:14:44 SlurmdStartTime=2023-05-22T10:15:00
    CfgTRES=cpu=72,mem=500000M,billing=72
-   AllocTRES=cpu=32,mem=480000M
+   AllocTRES=cpu=36,mem=490240M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp039 Arch=x86_64 CoresPerSocket=18 
-   CPUAlloc=32 CPUTot=72 CPULoad=39.00
+   CPUAlloc=36 CPUTot=72 CPULoad=34.47
    AvailableFeatures=rhel7,broadwell,avx2,avx,sse4_2
    ActiveFeatures=rhel7,broadwell,avx2,avx,sse4_2
    Gres=(null)
    NodeAddr=p1cmp039 NodeHostName=p1cmp039 Version=20.02.6
    OS=Linux 3.10.0-862.14.4.el7.x86_64 #1 SMP Fri Sep 21 09:07:21 UTC 2018 
-   RealMemory=500000 AllocMem=480000 FreeMem=73198 Sockets=2 Boards=1
+   RealMemory=500000 AllocMem=490240 FreeMem=79279 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=6000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
-   BootTime=2023-02-02T13:21:27 SlurmdStartTime=2023-05-19T13:41:16
+   BootTime=2023-02-02T13:21:28 SlurmdStartTime=2023-05-19T13:41:16
    CfgTRES=cpu=72,mem=500000M,billing=72
-   AllocTRES=cpu=32,mem=480000M
+   AllocTRES=cpu=36,mem=490240M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp040 Arch=x86_64 CoresPerSocket=18 
-   CPUAlloc=32 CPUTot=72 CPULoad=27.53
+   CPUAlloc=36 CPUTot=72 CPULoad=73.20
    AvailableFeatures=rhel7,broadwell,avx2,avx,sse4_2
    ActiveFeatures=rhel7,broadwell,avx2,avx,sse4_2
    Gres=(null)
    NodeAddr=p1cmp040 NodeHostName=p1cmp040 Version=20.02.6
    OS=Linux 3.10.0-862.14.4.el7.x86_64 #1 SMP Fri Sep 21 09:07:21 UTC 2018 
-   RealMemory=500000 AllocMem=480000 FreeMem=136725 Sockets=2 Boards=1
+   RealMemory=500000 AllocMem=490240 FreeMem=61760 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=6000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
-   BootTime=2023-02-02T13:23:49 SlurmdStartTime=2023-05-19T13:41:16
+   BootTime=2023-02-02T13:23:50 SlurmdStartTime=2023-05-19T13:41:16
    CfgTRES=cpu=72,mem=500000M,billing=72
-   AllocTRES=cpu=32,mem=480000M
+   AllocTRES=cpu=36,mem=490240M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp041 Arch=x86_64 CoresPerSocket=18 
-   CPUAlloc=72 CPUTot=72 CPULoad=8.68
+   CPUAlloc=72 CPUTot=72 CPULoad=8.93
    AvailableFeatures=rhel7,broadwell,avx2,avx,sse4_2
    ActiveFeatures=rhel7,broadwell,avx2,avx,sse4_2
    Gres=(null)
    NodeAddr=p1cmp041 NodeHostName=p1cmp041 Version=20.02.6
    OS=Linux 3.10.0-862.14.4.el7.x86_64 #1 SMP Fri Sep 21 09:07:21 UTC 2018 
-   RealMemory=500000 AllocMem=294912 FreeMem=60545 Sockets=2 Boards=1
+   RealMemory=500000 AllocMem=294912 FreeMem=60515 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=6000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
-   BootTime=2023-03-06T13:19:24 SlurmdStartTime=2023-05-19T13:41:16
+   BootTime=2023-03-06T13:19:25 SlurmdStartTime=2023-05-19T13:41:16
    CfgTRES=cpu=72,mem=500000M,billing=72
    AllocTRES=cpu=72,mem=288G
    CapWatts=n/a
@@ -2830,16 +2830,16 @@ NodeName=p1cmp041 Arch=x86_64 CoresPerSocket=18
    
 
 NodeName=p1cmp042 Arch=x86_64 CoresPerSocket=18 
-   CPUAlloc=72 CPUTot=72 CPULoad=8.65
+   CPUAlloc=72 CPUTot=72 CPULoad=8.92
    AvailableFeatures=rhel7,broadwell,avx2,avx,sse4_2
    ActiveFeatures=rhel7,broadwell,avx2,avx,sse4_2
    Gres=(null)
    NodeAddr=p1cmp042 NodeHostName=p1cmp042 Version=20.02.6
    OS=Linux 3.10.0-862.14.4.el7.x86_64 #1 SMP Fri Sep 21 09:07:21 UTC 2018 
-   RealMemory=500000 AllocMem=294912 FreeMem=49405 Sockets=2 Boards=1
+   RealMemory=500000 AllocMem=294912 FreeMem=112799 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=6000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
-   BootTime=2023-02-02T13:30:22 SlurmdStartTime=2023-05-19T13:41:16
+   BootTime=2023-02-02T13:30:23 SlurmdStartTime=2023-05-19T13:41:16
    CfgTRES=cpu=72,mem=500000M,billing=72
    AllocTRES=cpu=72,mem=288G
    CapWatts=n/a
@@ -2848,90 +2848,90 @@ NodeName=p1cmp042 Arch=x86_64 CoresPerSocket=18
    
 
 NodeName=p1cmp043 Arch=x86_64 CoresPerSocket=20 
-   CPUAlloc=80 CPUTot=80 CPULoad=36.35
+   CPUAlloc=80 CPUTot=80 CPULoad=34.95
    AvailableFeatures=(null)
    ActiveFeatures=(null)
    Gres=(null)
    NodeAddr=p1cmp043 NodeHostName=p1cmp043 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=188000 AllocMem=138800 FreeMem=27518 Sockets=2 Boards=1
+   RealMemory=188000 AllocMem=127280 FreeMem=28215 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi,preempt 
-   BootTime=2022-10-14T15:07:33 SlurmdStartTime=2023-05-19T13:41:25
+   BootTime=2022-10-14T15:07:34 SlurmdStartTime=2023-05-19T13:41:25
    CfgTRES=cpu=80,mem=188000M,billing=80
-   AllocTRES=cpu=80,mem=138800M
+   AllocTRES=cpu=80,mem=127280M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp044 Arch=x86_64 CoresPerSocket=20 
-   CPUAlloc=80 CPUTot=80 CPULoad=37.32
+   CPUAlloc=76 CPUTot=80 CPULoad=34.96
    AvailableFeatures=(null)
    ActiveFeatures=(null)
    Gres=(null)
    NodeAddr=p1cmp044 NodeHostName=p1cmp044 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=188000 AllocMem=95376 FreeMem=3012 Sockets=2 Boards=1
-   State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   RealMemory=188000 AllocMem=37520 FreeMem=847 Sockets=2 Boards=1
+   State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi,preempt 
-   BootTime=2022-10-14T15:07:36 SlurmdStartTime=2023-05-19T13:41:25
+   BootTime=2022-10-14T15:07:37 SlurmdStartTime=2023-05-19T13:41:25
    CfgTRES=cpu=80,mem=188000M,billing=80
-   AllocTRES=cpu=80,mem=95376M
+   AllocTRES=cpu=76,mem=37520M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp045 Arch=x86_64 CoresPerSocket=20 
-   CPUAlloc=80 CPUTot=80 CPULoad=37.55
+   CPUAlloc=76 CPUTot=80 CPULoad=34.06
    AvailableFeatures=(null)
    ActiveFeatures=(null)
    Gres=(null)
    NodeAddr=p1cmp045 NodeHostName=p1cmp045 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=188000 AllocMem=95376 FreeMem=20281 Sockets=2 Boards=1
-   State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   RealMemory=188000 AllocMem=47760 FreeMem=16359 Sockets=2 Boards=1
+   State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi,preempt 
-   BootTime=2022-10-14T15:07:31 SlurmdStartTime=2023-05-19T13:41:26
+   BootTime=2022-10-14T15:07:32 SlurmdStartTime=2023-05-19T13:41:26
    CfgTRES=cpu=80,mem=188000M,billing=80
-   AllocTRES=cpu=80,mem=95376M
+   AllocTRES=cpu=76,mem=47760M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp049 Arch=x86_64 CoresPerSocket=18 
-   CPUAlloc=16 CPUTot=72 CPULoad=4.12
+   CPUAlloc=72 CPUTot=72 CPULoad=18.01
    AvailableFeatures=rhel7,broadwell,avx2,avx,sse4_2
    ActiveFeatures=rhel7,broadwell,avx2,avx,sse4_2
    Gres=(null)
    NodeAddr=p1cmp049 NodeHostName=p1cmp049 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=1000000 AllocMem=65536 FreeMem=827317 Sockets=2 Boards=1
-   State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=6000 Owner=N/A MCS_label=N/A
+   RealMemory=1000000 AllocMem=184320 FreeMem=844521 Sockets=2 Boards=1
+   State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=6000 Owner=N/A MCS_label=N/A
    Partitions=largemem 
-   BootTime=2021-03-19T11:19:33 SlurmdStartTime=2023-05-19T13:41:21
+   BootTime=2021-03-19T11:19:34 SlurmdStartTime=2023-05-19T13:41:21
    CfgTRES=cpu=72,mem=1000000M,billing=72
-   AllocTRES=cpu=16,mem=64G
+   AllocTRES=cpu=72,mem=180G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp050 Arch=x86_64 CoresPerSocket=18 
-   CPUAlloc=4 CPUTot=72 CPULoad=3.66
+   CPUAlloc=32 CPUTot=72 CPULoad=10.75
    AvailableFeatures=rhel7,broadwell,avx2,avx,sse4_2
    ActiveFeatures=rhel7,broadwell,avx2,avx,sse4_2
    Gres=(null)
    NodeAddr=p1cmp050 NodeHostName=p1cmp050 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=1000000 AllocMem=921600 FreeMem=257489 Sockets=2 Boards=1
+   RealMemory=1000000 AllocMem=993280 FreeMem=157325 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=6000 Owner=N/A MCS_label=N/A
    Partitions=largemem 
-   BootTime=2021-03-19T11:57:16 SlurmdStartTime=2023-05-19T13:41:21
+   BootTime=2021-03-19T11:57:17 SlurmdStartTime=2023-05-19T13:41:21
    CfgTRES=cpu=72,mem=1000000M,billing=72
-   AllocTRES=cpu=4,mem=900G
+   AllocTRES=cpu=32,mem=970G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
@@ -2944,10 +2944,10 @@ NodeName=p1cmp054 Arch=x86_64 CoresPerSocket=18
    Gres=(null)
    NodeAddr=p1cmp054 NodeHostName=p1cmp054 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=248000 AllocMem=0 FreeMem=117491 Sockets=2 Boards=1
+   RealMemory=248000 AllocMem=0 FreeMem=117482 Sockets=2 Boards=1
    State=IDLE+DRAIN ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi,preempt 
-   BootTime=2022-02-18T19:38:08 SlurmdStartTime=2023-05-19T13:41:21
+   BootTime=2022-02-18T19:38:09 SlurmdStartTime=2023-05-19T13:41:21
    CfgTRES=cpu=72,mem=248000M,billing=72
    AllocTRES=
    CapWatts=n/a
@@ -2962,10 +2962,10 @@ NodeName=p1cmp055 Arch=x86_64 CoresPerSocket=18
    Gres=(null)
    NodeAddr=p1cmp055 NodeHostName=p1cmp055 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=128000 AllocMem=0 FreeMem=101413 Sockets=2 Boards=1
+   RealMemory=128000 AllocMem=0 FreeMem=101394 Sockets=2 Boards=1
    State=IDLE+DRAIN ThreadsPerCore=2 TmpDisk=0 Weight=3000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi,preempt 
-   BootTime=2022-03-11T14:42:19 SlurmdStartTime=2023-05-19T13:41:21
+   BootTime=2022-03-11T14:42:20 SlurmdStartTime=2023-05-19T13:41:21
    CfgTRES=cpu=72,mem=125G,billing=72
    AllocTRES=
    CapWatts=n/a
@@ -2980,10 +2980,10 @@ NodeName=p1cmp056 Arch=x86_64 CoresPerSocket=18
    Gres=(null)
    NodeAddr=p1cmp056 NodeHostName=p1cmp056 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=120000 AllocMem=0 FreeMem=53291 Sockets=2 Boards=1
+   RealMemory=120000 AllocMem=0 FreeMem=51639 Sockets=2 Boards=1
    State=IDLE+DRAIN ThreadsPerCore=2 TmpDisk=0 Weight=3000 Owner=N/A MCS_label=N/A
    Partitions=batch,mpi,preempt 
-   BootTime=2022-12-05T23:06:39 SlurmdStartTime=2023-05-19T13:41:21
+   BootTime=2022-12-05T23:06:40 SlurmdStartTime=2023-05-19T13:41:21
    CfgTRES=cpu=72,mem=120000M,billing=72
    AllocTRES=
    CapWatts=n/a
@@ -2998,10 +2998,10 @@ NodeName=p1cmp070 Arch=x86_64 CoresPerSocket=16
    Gres=(null)
    NodeAddr=p1cmp070 NodeHostName=p1cmp070 Version=20.02.6
    OS=Linux 3.10.0-862.el7.x86_64 #1 SMP Wed Mar 21 18:14:51 EDT 2018 
-   RealMemory=1500000 AllocMem=262144 FreeMem=1492026 Sockets=2 Boards=1
+   RealMemory=1500000 AllocMem=262144 FreeMem=1492014 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=10000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
-   BootTime=2021-01-12T16:57:29 SlurmdStartTime=2023-05-19T13:41:16
+   BootTime=2021-01-12T16:57:30 SlurmdStartTime=2023-05-19T13:41:16
    CfgTRES=cpu=64,mem=1500000M,billing=64
    AllocTRES=cpu=64,mem=256G
    CapWatts=n/a
@@ -3010,16 +3010,16 @@ NodeName=p1cmp070 Arch=x86_64 CoresPerSocket=16
    
 
 NodeName=p1cmp071 Arch=x86_64 CoresPerSocket=16 
-   CPUAlloc=64 CPUTot=64 CPULoad=8.07
+   CPUAlloc=64 CPUTot=64 CPULoad=8.02
    AvailableFeatures=gpu,rhel7,sky_lake,avx2,avx,sse4_2
    ActiveFeatures=gpu,rhel7,sky_lake,avx2,avx,sse4_2
    Gres=gpu:v100:3(S:0-1)
    NodeAddr=p1cmp071 NodeHostName=p1cmp071 Version=20.02.6
    OS=Linux 3.10.0-862.el7.x86_64 #1 SMP Wed Mar 21 18:14:51 EDT 2018 
-   RealMemory=368000 AllocMem=262144 FreeMem=370523 Sockets=2 Boards=1
+   RealMemory=368000 AllocMem=262144 FreeMem=370509 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=5000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
-   BootTime=2022-05-19T11:30:57 SlurmdStartTime=2023-05-19T13:41:12
+   BootTime=2022-05-19T11:30:59 SlurmdStartTime=2023-05-19T13:41:12
    CfgTRES=cpu=64,mem=368000M,billing=64,gres/gpu=3
    AllocTRES=cpu=64,mem=256G
    CapWatts=n/a
@@ -3034,10 +3034,10 @@ NodeName=p1cmp072 Arch=x86_64 CoresPerSocket=16
    Gres=gpu:v100:4(S:0-1)
    NodeAddr=p1cmp072 NodeHostName=p1cmp072 Version=20.02.6
    OS=Linux 3.10.0-862.el7.x86_64 #1 SMP Wed Mar 21 18:14:51 EDT 2018 
-   RealMemory=368000 AllocMem=262144 FreeMem=370341 Sockets=2 Boards=1
+   RealMemory=368000 AllocMem=262144 FreeMem=370353 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=5000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
-   BootTime=2022-07-08T15:29:47 SlurmdStartTime=2023-05-19T13:41:12
+   BootTime=2022-07-08T15:29:49 SlurmdStartTime=2023-05-19T13:41:12
    CfgTRES=cpu=64,mem=368000M,billing=64,gres/gpu=4
    AllocTRES=cpu=64,mem=256G
    CapWatts=n/a
@@ -3046,106 +3046,106 @@ NodeName=p1cmp072 Arch=x86_64 CoresPerSocket=16
    
 
 NodeName=p1cmp073 Arch=x86_64 CoresPerSocket=18 
-   CPUAlloc=0 CPUTot=72 CPULoad=170.01
+   CPUAlloc=60 CPUTot=72 CPULoad=8.02
    AvailableFeatures=gpu,broadwell,avx2,avx,sse4_2,rhel7
    ActiveFeatures=gpu,broadwell,avx2,avx,sse4_2,rhel7
    Gres=gpu:p100:4(S:0-1)
    NodeAddr=p1cmp073 NodeHostName=p1cmp073 Version=20.02.6
    OS=Linux 3.10.0-862.el7.x86_64 #1 SMP Wed Mar 21 18:14:51 EDT 2018 
-   RealMemory=248000 AllocMem=0 FreeMem=88002 Sockets=2 Boards=1
-   State=IDLE+DRAIN ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
+   RealMemory=248000 AllocMem=245760 FreeMem=247311 Sockets=2 Boards=1
+   State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=gpu,preempt 
-   BootTime=2022-05-25T11:39:48 SlurmdStartTime=2023-05-19T13:41:12
+   BootTime=2023-05-24T18:01:44 SlurmdStartTime=2023-05-24T18:26:31
    CfgTRES=cpu=72,mem=248000M,billing=72,gres/gpu=4
-   AllocTRES=
+   AllocTRES=cpu=60,mem=240G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
-   Reason=Kill task failed [root@2023-05-19T15:36:45]
+   
 
 NodeName=p1cmp074 Arch=x86_64 CoresPerSocket=18 
-   CPUAlloc=60 CPUTot=72 CPULoad=39.48
+   CPUAlloc=62 CPUTot=72 CPULoad=9.98
    AvailableFeatures=gpu,broadwell,avx2,avx,sse4_2,rhel7
    ActiveFeatures=gpu,broadwell,avx2,avx,sse4_2,rhel7
    Gres=gpu:v100:4(S:0-1)
    NodeAddr=p1cmp074 NodeHostName=p1cmp074 Version=20.02.6
    OS=Linux 3.10.0-862.el7.x86_64 #1 SMP Wed Mar 21 18:14:51 EDT 2018 
-   RealMemory=256000 AllocMem=250880 FreeMem=218744 Sockets=2 Boards=1
+   RealMemory=256000 AllocMem=252928 FreeMem=216015 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
-   BootTime=2021-05-04T13:23:45 SlurmdStartTime=2023-05-19T13:41:12
+   BootTime=2021-05-04T13:23:46 SlurmdStartTime=2023-05-19T13:41:12
    CfgTRES=cpu=72,mem=250G,billing=72,gres/gpu=4
-   AllocTRES=cpu=60,mem=245G,gres/gpu=1
+   AllocTRES=cpu=62,mem=247G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp075 Arch=x86_64 CoresPerSocket=18 
-   CPUAlloc=50 CPUTot=72 CPULoad=22.10
+   CPUAlloc=56 CPUTot=72 CPULoad=25.01
    AvailableFeatures=gpu,broadwell,avx2,avx,sse4_2,rhel7
    ActiveFeatures=gpu,broadwell,avx2,avx,sse4_2,rhel7
    Gres=gpu:p100:6(S:0-1)
    NodeAddr=p1cmp075 NodeHostName=p1cmp075 Version=20.02.6
    OS=Linux 3.10.0-862.el7.x86_64 #1 SMP Wed Mar 21 18:14:51 EDT 2018 
-   RealMemory=256000 AllocMem=242688 FreeMem=114440 Sockets=2 Boards=1
+   RealMemory=256000 AllocMem=250880 FreeMem=112543 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
-   BootTime=2021-12-22T13:03:32 SlurmdStartTime=2023-05-19T13:41:12
+   BootTime=2021-12-22T13:03:33 SlurmdStartTime=2023-05-19T13:41:12
    CfgTRES=cpu=72,mem=250G,billing=72,gres/gpu=6
-   AllocTRES=cpu=50,mem=237G,gres/gpu=4
+   AllocTRES=cpu=56,mem=245G,gres/gpu=4
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp076 Arch=x86_64 CoresPerSocket=16 
-   CPUAlloc=40 CPUTot=64 CPULoad=5.00
+   CPUAlloc=42 CPUTot=64 CPULoad=6.20
    AvailableFeatures=gpu,avx2,avx,sse4_2,rhel7
    ActiveFeatures=gpu,avx2,avx,sse4_2,rhel7
    Gres=gpu:v100:2(S:1)
    NodeAddr=p1cmp076 NodeHostName=p1cmp076 Version=20.02.6
    OS=Linux 3.10.0-862.el7.x86_64 #1 SMP Wed Mar 21 18:14:51 EDT 2018 
-   RealMemory=168000 AllocMem=163840 FreeMem=159923 Sockets=2 Boards=1
+   RealMemory=168000 AllocMem=165840 FreeMem=159907 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
-   BootTime=2022-04-13T13:20:42 SlurmdStartTime=2023-05-19T13:41:12
+   BootTime=2022-04-13T13:20:43 SlurmdStartTime=2023-05-19T13:41:12
    CfgTRES=cpu=64,mem=168000M,billing=64,gres/gpu=2
-   AllocTRES=cpu=40,mem=160G
+   AllocTRES=cpu=42,mem=165840M,gres/gpu=1
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp077 Arch=x86_64 CoresPerSocket=16 
-   CPUAlloc=42 CPUTot=64 CPULoad=7.44
+   CPUAlloc=58 CPUTot=64 CPULoad=12.03
    AvailableFeatures=gpu,avx2,avx,sse4_2,rhel7
    ActiveFeatures=gpu,avx2,avx,sse4_2,rhel7
    Gres=gpu:rtx_6000:2(S:1)
    NodeAddr=p1cmp077 NodeHostName=p1cmp077 Version=20.02.6
    OS=Linux 3.10.0-862.el7.x86_64 #1 SMP Wed Mar 21 18:14:51 EDT 2018 
-   RealMemory=184000 AllocMem=177152 FreeMem=164766 Sockets=2 Boards=1
+   RealMemory=184000 AllocMem=177152 FreeMem=140933 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
-   BootTime=2022-04-06T13:57:45 SlurmdStartTime=2023-05-19T13:41:12
+   BootTime=2022-04-06T13:57:46 SlurmdStartTime=2023-05-19T13:41:12
    CfgTRES=cpu=64,mem=184000M,billing=64,gres/gpu=2
-   AllocTRES=cpu=42,mem=173G
+   AllocTRES=cpu=58,mem=173G,gres/gpu=2
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp079 Arch=x86_64 CoresPerSocket=24 
-   CPUAlloc=96 CPUTot=96 CPULoad=12.05
+   CPUAlloc=96 CPUTot=96 CPULoad=11.99
    AvailableFeatures=avx2,avx,sse4_2,rhel7
    ActiveFeatures=avx2,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=p1cmp079 NodeHostName=p1cmp079 Version=20.02.6
    OS=Linux 3.10.0-862.el7.x86_64 #1 SMP Wed Mar 21 18:14:51 EDT 2018 
-   RealMemory=756121 AllocMem=393216 FreeMem=757703 Sockets=2 Boards=1
+   RealMemory=756121 AllocMem=393216 FreeMem=757689 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
-   BootTime=2023-02-27T20:38:50 SlurmdStartTime=2023-05-19T13:41:15
+   BootTime=2023-02-27T20:38:51 SlurmdStartTime=2023-05-19T13:41:15
    CfgTRES=cpu=96,mem=756121M,billing=96
    AllocTRES=cpu=96,mem=384G
    CapWatts=n/a
@@ -3160,10 +3160,10 @@ NodeName=p1cmp080 Arch=x86_64 CoresPerSocket=24
    Gres=(null)
    NodeAddr=p1cmp080 NodeHostName=p1cmp080 Version=20.02.6
    OS=Linux 3.10.0-862.el7.x86_64 #1 SMP Wed Mar 21 18:14:51 EDT 2018 
-   RealMemory=756121 AllocMem=393216 FreeMem=757440 Sockets=2 Boards=1
+   RealMemory=756121 AllocMem=393216 FreeMem=757446 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
-   BootTime=2020-12-22T13:14:21 SlurmdStartTime=2023-05-19T13:41:15
+   BootTime=2020-12-22T13:14:22 SlurmdStartTime=2023-05-19T13:41:15
    CfgTRES=cpu=96,mem=756121M,billing=96
    AllocTRES=cpu=96,mem=384G
    CapWatts=n/a
@@ -3172,13 +3172,13 @@ NodeName=p1cmp080 Arch=x86_64 CoresPerSocket=24
    
 
 NodeName=p1cmp081 Arch=x86_64 CoresPerSocket=24 
-   CPUAlloc=96 CPUTot=96 CPULoad=12.06
+   CPUAlloc=96 CPUTot=96 CPULoad=12.04
    AvailableFeatures=avx2,avx,sse4_2,rhel7
    ActiveFeatures=avx2,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=p1cmp081 NodeHostName=p1cmp081 Version=20.02.6
    OS=Linux 3.10.0-862.el7.x86_64 #1 SMP Wed Mar 21 18:14:51 EDT 2018 
-   RealMemory=756121 AllocMem=393216 FreeMem=750368 Sockets=2 Boards=1
+   RealMemory=756121 AllocMem=393216 FreeMem=750355 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2020-12-22T13:12:12 SlurmdStartTime=2023-05-19T13:41:15
@@ -3190,13 +3190,13 @@ NodeName=p1cmp081 Arch=x86_64 CoresPerSocket=24
    
 
 NodeName=p1cmp082 Arch=x86_64 CoresPerSocket=24 
-   CPUAlloc=96 CPUTot=96 CPULoad=12.07
+   CPUAlloc=96 CPUTot=96 CPULoad=12.01
    AvailableFeatures=avx2,avx,sse4_2,rhel7
    ActiveFeatures=avx2,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=p1cmp082 NodeHostName=p1cmp082 Version=20.02.6
    OS=Linux 3.10.0-862.el7.x86_64 #1 SMP Wed Mar 21 18:14:51 EDT 2018 
-   RealMemory=756121 AllocMem=393216 FreeMem=754762 Sockets=2 Boards=1
+   RealMemory=756121 AllocMem=393216 FreeMem=754719 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2022-02-05T12:53:31 SlurmdStartTime=2023-05-19T13:41:16
@@ -3214,7 +3214,7 @@ NodeName=p1cmp083 Arch=x86_64 CoresPerSocket=24
    Gres=(null)
    NodeAddr=p1cmp083 NodeHostName=p1cmp083 Version=20.02.6
    OS=Linux 3.10.0-862.el7.x86_64 #1 SMP Wed Mar 21 18:14:51 EDT 2018 
-   RealMemory=756121 AllocMem=393216 FreeMem=752475 Sockets=2 Boards=1
+   RealMemory=756121 AllocMem=393216 FreeMem=752440 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2023-02-16T09:39:49 SlurmdStartTime=2023-05-19T13:41:16
@@ -3232,30 +3232,30 @@ NodeName=p1cmp084 Arch=x86_64 CoresPerSocket=24
    Gres=(null)
    NodeAddr=p1cmp084 NodeHostName=p1cmp084 Version=20.02.6
    OS=Linux 3.10.0-862.el7.x86_64 #1 SMP Wed Mar 21 18:14:51 EDT 2018 
-   RealMemory=756121 AllocMem=488448 FreeMem=726841 Sockets=2 Boards=1
+   RealMemory=756121 AllocMem=393216 FreeMem=726293 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2022-02-05T12:53:55 SlurmdStartTime=2023-05-19T13:41:16
    CfgTRES=cpu=96,mem=756121M,billing=96
-   AllocTRES=cpu=96,mem=477G
+   AllocTRES=cpu=96,mem=384G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp085 Arch=x86_64 CoresPerSocket=24 
-   CPUAlloc=96 CPUTot=96 CPULoad=12.01
+   CPUAlloc=96 CPUTot=96 CPULoad=13.03
    AvailableFeatures=avx2,avx,sse4_2,rhel7
    ActiveFeatures=avx2,avx,sse4_2,rhel7
    Gres=(null)
    NodeAddr=p1cmp085 NodeHostName=p1cmp085 Version=20.02.6
    OS=Linux 3.10.0-862.el7.x86_64 #1 SMP Wed Mar 21 18:14:51 EDT 2018 
-   RealMemory=756121 AllocMem=393216 FreeMem=739354 Sockets=2 Boards=1
+   RealMemory=756121 AllocMem=380928 FreeMem=656475 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-05-25T10:22:14 SlurmdStartTime=2023-05-19T13:41:16
    CfgTRES=cpu=96,mem=756121M,billing=96
-   AllocTRES=cpu=96,mem=384G
+   AllocTRES=cpu=96,mem=372G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
@@ -3268,7 +3268,7 @@ NodeName=p1cmp086 Arch=x86_64 CoresPerSocket=24
    Gres=(null)
    NodeAddr=p1cmp086 NodeHostName=p1cmp086 Version=20.02.6
    OS=Linux 3.10.0-862.el7.x86_64 #1 SMP Wed Mar 21 18:14:51 EDT 2018 
-   RealMemory=756121 AllocMem=393216 FreeMem=746257 Sockets=2 Boards=1
+   RealMemory=756121 AllocMem=393216 FreeMem=746259 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-06-07T10:30:03 SlurmdStartTime=2023-05-19T13:41:16
@@ -3280,103 +3280,103 @@ NodeName=p1cmp086 Arch=x86_64 CoresPerSocket=24
    
 
 NodeName=p1cmp090 Arch=x86_64 CoresPerSocket=20 
-   CPUAlloc=36 CPUTot=80 CPULoad=22.03
+   CPUAlloc=56 CPUTot=80 CPULoad=44.02
    AvailableFeatures=gpu,rhel7,crystal_lake,avx2,avx,sse4_2
    ActiveFeatures=gpu,rhel7,crystal_lake,avx2,avx,sse4_2
    Gres=gpu:t4:4(S:0-1)
    NodeAddr=p1cmp090 NodeHostName=p1cmp090 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=92000 AllocMem=84992 FreeMem=370 Sockets=2 Boards=1
+   RealMemory=92000 AllocMem=86016 FreeMem=315 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2023-01-03T15:40:22 SlurmdStartTime=2023-05-19T13:41:13
    CfgTRES=cpu=80,mem=92000M,billing=80,gres/gpu=4
-   AllocTRES=cpu=36,mem=83G
+   AllocTRES=cpu=56,mem=84G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp091 Arch=x86_64 CoresPerSocket=20 
-   CPUAlloc=50 CPUTot=80 CPULoad=40.02
+   CPUAlloc=32 CPUTot=80 CPULoad=25.74
    AvailableFeatures=gpu,rhel7,crystal_lake,avx2,avx,sse4_2
    ActiveFeatures=gpu,rhel7,crystal_lake,avx2,avx,sse4_2
    Gres=gpu:t4:4(S:0-1)
    NodeAddr=p1cmp091 NodeHostName=p1cmp091 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=92000 AllocMem=84992 FreeMem=445 Sockets=2 Boards=1
-   State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
+   RealMemory=92000 AllocMem=55296 FreeMem=53104 Sockets=2 Boards=1
+   State=MIXED+COMPLETING ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-10-04T10:56:41 SlurmdStartTime=2023-05-19T13:41:13
    CfgTRES=cpu=80,mem=92000M,billing=80,gres/gpu=4
-   AllocTRES=cpu=50,mem=83G,gres/gpu=4
+   AllocTRES=cpu=32,mem=54G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp092 Arch=x86_64 CoresPerSocket=20 
-   CPUAlloc=30 CPUTot=80 CPULoad=21.84
+   CPUAlloc=40 CPUTot=80 CPULoad=22.67
    AvailableFeatures=gpu,rhel7,crystal_lake,avx2,avx,sse4_2
    ActiveFeatures=gpu,rhel7,crystal_lake,avx2,avx,sse4_2
    Gres=gpu:t4:4(S:0-1)
    NodeAddr=p1cmp092 NodeHostName=p1cmp092 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=92000 AllocMem=65536 FreeMem=5468 Sockets=2 Boards=1
+   RealMemory=92000 AllocMem=88064 FreeMem=12276 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2023-01-03T15:40:37 SlurmdStartTime=2023-05-19T13:41:13
    CfgTRES=cpu=80,mem=92000M,billing=80,gres/gpu=4
-   AllocTRES=cpu=30,mem=64G,gres/gpu=2
+   AllocTRES=cpu=40,mem=86G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp093 Arch=x86_64 CoresPerSocket=20 
-   CPUAlloc=18 CPUTot=80 CPULoad=4.01
+   CPUAlloc=80 CPUTot=80 CPULoad=35.97
    AvailableFeatures=gpu,rhel7,crystal_lake,avx2,avx,sse4_2
    ActiveFeatures=gpu,rhel7,crystal_lake,avx2,avx,sse4_2
    Gres=gpu:t4:4(S:0-1)
    NodeAddr=p1cmp093 NodeHostName=p1cmp093 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=92000 AllocMem=78848 FreeMem=1495 Sockets=2 Boards=1
-   State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
+   RealMemory=92000 AllocMem=69632 FreeMem=325 Sockets=2 Boards=1
+   State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-10-15T16:24:48 SlurmdStartTime=2023-05-19T13:41:13
    CfgTRES=cpu=80,mem=92000M,billing=80,gres/gpu=4
-   AllocTRES=cpu=18,mem=77G
+   AllocTRES=cpu=80,mem=68G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp094 Arch=x86_64 CoresPerSocket=20 
-   CPUAlloc=48 CPUTot=80 CPULoad=38.32
+   CPUAlloc=46 CPUTot=80 CPULoad=58.63
    AvailableFeatures=gpu,rhel7,crystal_lake,avx2,avx,sse4_2
    ActiveFeatures=gpu,rhel7,crystal_lake,avx2,avx,sse4_2
    Gres=gpu:t4:4(S:0-1)
    NodeAddr=p1cmp094 NodeHostName=p1cmp094 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=92000 AllocMem=71680 FreeMem=4444 Sockets=2 Boards=1
+   RealMemory=92000 AllocMem=88512 FreeMem=12095 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2022-03-28T11:08:19 SlurmdStartTime=2023-05-19T13:41:13
    CfgTRES=cpu=80,mem=92000M,billing=80,gres/gpu=4
-   AllocTRES=cpu=48,mem=70G,gres/gpu=2
+   AllocTRES=cpu=46,mem=88512M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp095 Arch=x86_64 CoresPerSocket=20 
-   CPUAlloc=80 CPUTot=80 CPULoad=32.73
+   CPUAlloc=80 CPUTot=80 CPULoad=35.47
    AvailableFeatures=gpu,rhel7,crystal_lake,avx2,avx,sse4_2
    ActiveFeatures=gpu,rhel7,crystal_lake,avx2,avx,sse4_2
    Gres=gpu:t4:4(S:0-1)
    NodeAddr=p1cmp095 NodeHostName=p1cmp095 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=92000 AllocMem=69632 FreeMem=2300 Sockets=2 Boards=1
+   RealMemory=92000 AllocMem=69632 FreeMem=419 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2023-03-08T10:49:16 SlurmdStartTime=2023-05-19T13:41:15
@@ -3388,265 +3388,265 @@ NodeName=p1cmp095 Arch=x86_64 CoresPerSocket=20
    
 
 NodeName=p1cmp096 Arch=x86_64 CoresPerSocket=20 
-   CPUAlloc=48 CPUTot=80 CPULoad=38.09
+   CPUAlloc=74 CPUTot=80 CPULoad=56.93
    AvailableFeatures=gpu,rhel7,crystal_lake,avx2,avx,sse4_2
    ActiveFeatures=gpu,rhel7,crystal_lake,avx2,avx,sse4_2
    Gres=gpu:t4:4(S:0-1)
    NodeAddr=p1cmp096 NodeHostName=p1cmp096 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=92000 AllocMem=71680 FreeMem=434 Sockets=2 Boards=1
+   RealMemory=92000 AllocMem=84992 FreeMem=335 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-09-09T16:41:58 SlurmdStartTime=2023-05-19T13:41:13
    CfgTRES=cpu=80,mem=92000M,billing=80,gres/gpu=4
-   AllocTRES=cpu=48,mem=70G,gres/gpu=4
+   AllocTRES=cpu=74,mem=83G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp097 Arch=x86_64 CoresPerSocket=20 
-   CPUAlloc=36 CPUTot=80 CPULoad=20.67
+   CPUAlloc=16 CPUTot=80 CPULoad=4.02
    AvailableFeatures=gpu,rhel7,crystal_lake,avx2,avx,sse4_2
    ActiveFeatures=gpu,rhel7,crystal_lake,avx2,avx,sse4_2
    Gres=gpu:t4:4(S:0-1)
    NodeAddr=p1cmp097 NodeHostName=p1cmp097 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=92000 AllocMem=84992 FreeMem=565 Sockets=2 Boards=1
-   State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
+   RealMemory=92000 AllocMem=53248 FreeMem=54176 Sockets=2 Boards=1
+   State=MIXED+COMPLETING ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2022-03-12T12:22:05 SlurmdStartTime=2023-05-19T13:41:13
    CfgTRES=cpu=80,mem=92000M,billing=80,gres/gpu=4
-   AllocTRES=cpu=36,mem=83G,gres/gpu=2
+   AllocTRES=cpu=16,mem=52G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp098 Arch=x86_64 CoresPerSocket=20 
-   CPUAlloc=16 CPUTot=80 CPULoad=2.06
+   CPUAlloc=80 CPUTot=80 CPULoad=30.36
    AvailableFeatures=gpu,rhel7,crystal_lake,avx2,avx,sse4_2
    ActiveFeatures=gpu,rhel7,crystal_lake,avx2,avx,sse4_2
    Gres=gpu:t4:4(S:0-1)
    NodeAddr=p1cmp098 NodeHostName=p1cmp098 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=92000 AllocMem=65536 FreeMem=86964 Sockets=2 Boards=1
-   State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
+   RealMemory=92000 AllocMem=86016 FreeMem=65481 Sockets=2 Boards=1
+   State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2023-05-09T13:45:33 SlurmdStartTime=2023-05-19T13:41:15
    CfgTRES=cpu=80,mem=92000M,billing=80,gres/gpu=4
-   AllocTRES=cpu=16,mem=64G
+   AllocTRES=cpu=80,mem=84G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp099 Arch=x86_64 CoresPerSocket=20 
-   CPUAlloc=0 CPUTot=80 CPULoad=2.60
+   CPUAlloc=28 CPUTot=80 CPULoad=13.11
    AvailableFeatures=gpu,rhel7,crystal_lake,avx2,avx,sse4_2
    ActiveFeatures=gpu,rhel7,crystal_lake,avx2,avx,sse4_2
    Gres=gpu:t4:4(S:0-1)
    NodeAddr=p1cmp099 NodeHostName=p1cmp099 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=92000 AllocMem=0 FreeMem=89159 Sockets=2 Boards=1
-   State=DOWN* ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
+   RealMemory=92000 AllocMem=89536 FreeMem=88489 Sockets=2 Boards=1
+   State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2023-05-05T16:22:09 SlurmdStartTime=2023-05-19T13:41:16
    CfgTRES=cpu=80,mem=92000M,billing=80,gres/gpu=4
-   AllocTRES=
+   AllocTRES=cpu=28,mem=89536M
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
-   Reason=Not responding [slurm@2023-05-20T22:03:45]
+   
 
 NodeName=p1cmp100 Arch=x86_64 CoresPerSocket=20 
-   CPUAlloc=30 CPUTot=80 CPULoad=21.99
+   CPUAlloc=22 CPUTot=80 CPULoad=5.02
    AvailableFeatures=gpu,rhel7,crystal_lake,avx2,avx,sse4_2
    ActiveFeatures=gpu,rhel7,crystal_lake,avx2,avx,sse4_2
    Gres=gpu:t4:4(S:0-1)
    NodeAddr=p1cmp100 NodeHostName=p1cmp100 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=92000 AllocMem=65536 FreeMem=15593 Sockets=2 Boards=1
+   RealMemory=92000 AllocMem=89088 FreeMem=49637 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-06-29T15:05:01 SlurmdStartTime=2023-05-19T13:41:13
    CfgTRES=cpu=80,mem=92000M,billing=80,gres/gpu=4
-   AllocTRES=cpu=30,mem=64G,gres/gpu=2
+   AllocTRES=cpu=22,mem=87G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp101 Arch=x86_64 CoresPerSocket=20 
-   CPUAlloc=50 CPUTot=80 CPULoad=40.70
+   CPUAlloc=58 CPUTot=80 CPULoad=39.56
    AvailableFeatures=gpu,rhel7,crystal_lake,avx2,avx,sse4_2
    ActiveFeatures=gpu,rhel7,crystal_lake,avx2,avx,sse4_2
    Gres=gpu:t4:4(S:0-1)
    NodeAddr=p1cmp101 NodeHostName=p1cmp101 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=92000 AllocMem=84992 FreeMem=32530 Sockets=2 Boards=1
+   RealMemory=92000 AllocMem=87040 FreeMem=27305 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2022-05-18T13:21:14 SlurmdStartTime=2023-05-19T13:41:12
    CfgTRES=cpu=80,mem=92000M,billing=80,gres/gpu=4
-   AllocTRES=cpu=50,mem=83G,gres/gpu=4
+   AllocTRES=cpu=58,mem=85G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp102 Arch=x86_64 CoresPerSocket=20 
-   CPUAlloc=74 CPUTot=80 CPULoad=31.53
+   CPUAlloc=78 CPUTot=80 CPULoad=32.51
    AvailableFeatures=gpu,rhel7,crystal_lake,avx2,avx,sse4_2
    ActiveFeatures=gpu,rhel7,crystal_lake,avx2,avx,sse4_2
    Gres=gpu:t4:4(S:0-1)
    NodeAddr=p1cmp102 NodeHostName=p1cmp102 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=92000 AllocMem=78848 FreeMem=70565 Sockets=2 Boards=1
+   RealMemory=92000 AllocMem=89088 FreeMem=52941 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-11-02T13:19:28 SlurmdStartTime=2023-05-19T13:41:12
    CfgTRES=cpu=80,mem=92000M,billing=80,gres/gpu=4
-   AllocTRES=cpu=74,mem=77G
+   AllocTRES=cpu=78,mem=87G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp103 Arch=x86_64 CoresPerSocket=20 
-   CPUAlloc=74 CPUTot=80 CPULoad=31.72
+   CPUAlloc=78 CPUTot=80 CPULoad=32.60
    AvailableFeatures=gpu,rhel7,crystal_lake,avx2,avx,sse4_2
    ActiveFeatures=gpu,rhel7,crystal_lake,avx2,avx,sse4_2
    Gres=gpu:t4:4(S:0-1)
    NodeAddr=p1cmp103 NodeHostName=p1cmp103 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=92000 AllocMem=78848 FreeMem=70164 Sockets=2 Boards=1
+   RealMemory=92000 AllocMem=89088 FreeMem=52560 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2022-03-09T12:51:43 SlurmdStartTime=2023-05-19T13:41:12
    CfgTRES=cpu=80,mem=92000M,billing=80,gres/gpu=4
-   AllocTRES=cpu=74,mem=77G
+   AllocTRES=cpu=78,mem=87G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp104 Arch=x86_64 CoresPerSocket=20 
-   CPUAlloc=36 CPUTot=80 CPULoad=21.07
+   CPUAlloc=56 CPUTot=80 CPULoad=38.87
    AvailableFeatures=gpu,rhel7,crystal_lake,avx2,avx,sse4_2
    ActiveFeatures=gpu,rhel7,crystal_lake,avx2,avx,sse4_2
    Gres=gpu:t4:4(S:0-1)
    NodeAddr=p1cmp104 NodeHostName=p1cmp104 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=92000 AllocMem=84992 FreeMem=61635 Sockets=2 Boards=1
+   RealMemory=92000 AllocMem=86016 FreeMem=72230 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-11-02T13:19:42 SlurmdStartTime=2023-05-19T13:41:12
    CfgTRES=cpu=80,mem=92000M,billing=80,gres/gpu=4
-   AllocTRES=cpu=36,mem=83G,gres/gpu=2
+   AllocTRES=cpu=56,mem=84G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp105 Arch=x86_64 CoresPerSocket=20 
-   CPUAlloc=18 CPUTot=80 CPULoad=8.32
+   CPUAlloc=78 CPUTot=80 CPULoad=32.38
    AvailableFeatures=gpu,rhel7,crystal_lake,avx2,avx,sse4_2
    ActiveFeatures=gpu,rhel7,crystal_lake,avx2,avx,sse4_2
    Gres=gpu:t4:4(S:0-1)
    NodeAddr=p1cmp105 NodeHostName=p1cmp105 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=92000 AllocMem=78848 FreeMem=40772 Sockets=2 Boards=1
+   RealMemory=92000 AllocMem=89088 FreeMem=19323 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2021-11-02T13:19:45 SlurmdStartTime=2023-05-19T13:41:12
    CfgTRES=cpu=80,mem=92000M,billing=80,gres/gpu=4
-   AllocTRES=cpu=18,mem=77G
+   AllocTRES=cpu=78,mem=87G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp106 Arch=x86_64 CoresPerSocket=20 
-   CPUAlloc=72 CPUTot=80 CPULoad=28.64
+   CPUAlloc=80 CPUTot=80 CPULoad=30.55
    AvailableFeatures=gpu,rhel7,crystal_lake,avx2,avx,sse4_2
    ActiveFeatures=gpu,rhel7,crystal_lake,avx2,avx,sse4_2
    Gres=gpu:t4:4(S:0-1)
    NodeAddr=p1cmp106 NodeHostName=p1cmp106 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=92000 AllocMem=65536 FreeMem=82853 Sockets=2 Boards=1
-   State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
+   RealMemory=92000 AllocMem=86016 FreeMem=65151 Sockets=2 Boards=1
+   State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
-   BootTime=2023-02-16T09:45:47 SlurmdStartTime=2023-05-19T13:41:14
+   BootTime=2023-02-16T09:45:48 SlurmdStartTime=2023-05-19T13:41:14
    CfgTRES=cpu=80,mem=92000M,billing=80,gres/gpu=4
-   AllocTRES=cpu=72,mem=64G
+   AllocTRES=cpu=80,mem=84G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp107 Arch=x86_64 CoresPerSocket=20 
-   CPUAlloc=36 CPUTot=80 CPULoad=21.03
+   CPUAlloc=60 CPUTot=80 CPULoad=39.65
    AvailableFeatures=gpu,rhel7,crystal_lake,avx2,avx,sse4_2
    ActiveFeatures=gpu,rhel7,crystal_lake,avx2,avx,sse4_2
    Gres=gpu:t4:4(S:0-1)
    NodeAddr=p1cmp107 NodeHostName=p1cmp107 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=92000 AllocMem=84992 FreeMem=44214 Sockets=2 Boards=1
+   RealMemory=92000 AllocMem=83968 FreeMem=67681 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
-   BootTime=2021-11-02T13:19:50 SlurmdStartTime=2023-05-19T13:41:12
+   BootTime=2021-11-02T13:19:51 SlurmdStartTime=2023-05-19T13:41:12
    CfgTRES=cpu=80,mem=92000M,billing=80,gres/gpu=4
-   AllocTRES=cpu=36,mem=83G,gres/gpu=2
+   AllocTRES=cpu=60,mem=82G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp108 Arch=x86_64 CoresPerSocket=20 
-   CPUAlloc=36 CPUTot=80 CPULoad=20.97
+   CPUAlloc=80 CPUTot=80 CPULoad=34.29
    AvailableFeatures=gpu,rhel7,crystal_lake,avx2,avx,sse4_2
    ActiveFeatures=gpu,rhel7,crystal_lake,avx2,avx,sse4_2
    Gres=gpu:t4:4(S:0-1)
    NodeAddr=p1cmp108 NodeHostName=p1cmp108 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=92000 AllocMem=84992 FreeMem=47563 Sockets=2 Boards=1
-   State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
+   RealMemory=92000 AllocMem=86016 FreeMem=64929 Sockets=2 Boards=1
+   State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
-   BootTime=2022-09-21T12:43:16 SlurmdStartTime=2023-05-19T13:41:12
+   BootTime=2022-09-21T12:43:17 SlurmdStartTime=2023-05-19T13:41:12
    CfgTRES=cpu=80,mem=92000M,billing=80,gres/gpu=4
-   AllocTRES=cpu=36,mem=83G,gres/gpu=2
+   AllocTRES=cpu=80,mem=84G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp109 Arch=x86_64 CoresPerSocket=20 
-   CPUAlloc=36 CPUTot=80 CPULoad=20.97
+   CPUAlloc=34 CPUTot=80 CPULoad=19.97
    AvailableFeatures=gpu,rhel7,crystal_lake,avx2,avx,sse4_2
    ActiveFeatures=gpu,rhel7,crystal_lake,avx2,avx,sse4_2
    Gres=gpu:t4:4(S:0-1)
    NodeAddr=p1cmp109 NodeHostName=p1cmp109 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=92000 AllocMem=84992 FreeMem=46585 Sockets=2 Boards=1
+   RealMemory=92000 AllocMem=64512 FreeMem=42028 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
-   BootTime=2022-02-13T01:20:57 SlurmdStartTime=2023-05-19T13:41:12
+   BootTime=2022-02-13T01:20:58 SlurmdStartTime=2023-05-19T13:41:12
    CfgTRES=cpu=80,mem=92000M,billing=80,gres/gpu=4
-   AllocTRES=cpu=36,mem=83G,gres/gpu=2
+   AllocTRES=cpu=34,mem=63G
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=p1cmp110 Arch=x86_64 CoresPerSocket=16 
-   CPUAlloc=64 CPUTot=64 CPULoad=1.79
+   CPUAlloc=64 CPUTot=64 CPULoad=0.01
    AvailableFeatures=gpu,rhel7,cascade_lake,avx2,avx,sse4_2
    ActiveFeatures=gpu,rhel7,cascade_lake,avx2,avx,sse4_2
    Gres=gpu:a100:2(S:1)
    NodeAddr=p1cmp110 NodeHostName=p1cmp110 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=190000 AllocMem=131072 FreeMem=74345 Sockets=2 Boards=1
+   RealMemory=190000 AllocMem=131072 FreeMem=81054 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=4000 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2022-11-14T07:25:02 SlurmdStartTime=2023-05-19T13:41:12
@@ -3674,103 +3674,103 @@ NodeName=paxadmin-prod-01 CoresPerSocket=1
    Reason=Not responding [root@2021-04-06T16:12:31]
 
 NodeName=s1cmp001 Arch=x86_64 CoresPerSocket=32 
-   CPUAlloc=56 CPUTot=128 CPULoad=46.78
+   CPUAlloc=58 CPUTot=128 CPULoad=46.25
    AvailableFeatures=gpu,rhel7,ice_lake,avx2,avx,sse4_2
    ActiveFeatures=gpu,rhel7,ice_lake,avx2,avx,sse4_2
    Gres=gpu:a100:4(S:0-1)
    NodeAddr=s1cmp001 NodeHostName=s1cmp001 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=1000000 AllocMem=989184 FreeMem=80214 Sockets=2 Boards=1
+   RealMemory=1000000 AllocMem=986112 FreeMem=98315 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
    Partitions=gpu,preempt 
    BootTime=2022-08-18T12:26:26 SlurmdStartTime=2023-05-19T13:41:14
    CfgTRES=cpu=128,mem=1000000M,billing=128,gres/gpu=4
-   AllocTRES=cpu=56,mem=966G,gres/gpu=4
+   AllocTRES=cpu=58,mem=963G,gres/gpu=4
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=s1cmp002 Arch=x86_64 CoresPerSocket=32 
-   CPUAlloc=112 CPUTot=128 CPULoad=40.07
+   CPUAlloc=124 CPUTot=128 CPULoad=19.56
    AvailableFeatures=gpu,rhel7,ice_lake,avx2,avx,sse4_2
    ActiveFeatures=gpu,rhel7,ice_lake,avx2,avx,sse4_2
    Gres=gpu:a100:4(S:0-1)
    NodeAddr=s1cmp002 NodeHostName=s1cmp002 Version=20.02.6
    OS=Linux 3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018 
-   RealMemory=1000000 AllocMem=980992 FreeMem=7275 Sockets=2 Boards=1
+   RealMemory=1000000 AllocMem=608256 FreeMem=35354 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
    Partitions=gpu,preempt 
    BootTime=2022-08-18T12:12:29 SlurmdStartTime=2023-05-19T13:41:14
    CfgTRES=cpu=128,mem=1000000M,billing=128,gres/gpu=4
-   AllocTRES=cpu=112,mem=958G,gres/gpu=4
+   AllocTRES=cpu=124,mem=594G,gres/gpu=4
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=s1cmp003 Arch=x86_64 CoresPerSocket=32 
-   CPUAlloc=116 CPUTot=128 CPULoad=44.63
+   CPUAlloc=124 CPUTot=128 CPULoad=33.43
    AvailableFeatures=gpu,rhel7,ice_lake,avx2,avx,sse4_2
    ActiveFeatures=gpu,rhel7,ice_lake,avx2,avx,sse4_2
    Gres=gpu:a100:4(S:0-1)
    NodeAddr=s1cmp003 NodeHostName=s1cmp003 Version=20.02.6
    OS=Linux 3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018 
-   RealMemory=1000000 AllocMem=980992 FreeMem=2083 Sockets=2 Boards=1
+   RealMemory=1000000 AllocMem=794624 FreeMem=36782 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
    Partitions=gpu,preempt 
    BootTime=2022-08-18T12:12:28 SlurmdStartTime=2023-05-19T13:41:14
    CfgTRES=cpu=128,mem=1000000M,billing=128,gres/gpu=4
-   AllocTRES=cpu=116,mem=958G,gres/gpu=4
+   AllocTRES=cpu=124,mem=776G,gres/gpu=4
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=s1cmp005 Arch=x86_64 CoresPerSocket=32 
-   CPUAlloc=120 CPUTot=128 CPULoad=40.54
+   CPUAlloc=120 CPUTot=128 CPULoad=37.47
    AvailableFeatures=gpu,rhel7,ice_lake,avx2,avx,sse4_2
    ActiveFeatures=gpu,rhel7,ice_lake,avx2,avx,sse4_2
    Gres=gpu:a100:4(S:0-1)
    NodeAddr=s1cmp005 NodeHostName=s1cmp005 Version=20.02.6
    OS=Linux 3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018 
-   RealMemory=1000000 AllocMem=993280 FreeMem=9884 Sockets=2 Boards=1
+   RealMemory=1000000 AllocMem=995328 FreeMem=20607 Sockets=2 Boards=1
    State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
    Partitions=gpu,preempt 
    BootTime=2022-08-18T12:12:47 SlurmdStartTime=2023-05-19T13:41:15
    CfgTRES=cpu=128,mem=1000000M,billing=128,gres/gpu=4
-   AllocTRES=cpu=120,mem=970G,gres/gpu=4
+   AllocTRES=cpu=120,mem=972G,gres/gpu=4
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=s1cmp006 Arch=x86_64 CoresPerSocket=24 
-   CPUAlloc=92 CPUTot=96 CPULoad=14.85
+   CPUAlloc=86 CPUTot=96 CPULoad=16.37
    AvailableFeatures=gpu,rhel7,cascade_lake,avx,sse4_2
    ActiveFeatures=gpu,rhel7,cascade_lake,avx,sse4_2
    Gres=gpu:a100:2(S:0)
    NodeAddr=s1cmp006 NodeHostName=s1cmp006 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=765000 AllocMem=583680 FreeMem=1966 Sockets=2 Boards=1
-   State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   RealMemory=765000 AllocMem=569344 FreeMem=9078 Sockets=2 Boards=1
+   State=MIXED+COMPLETING ThreadsPerCore=2 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2022-09-26T16:43:14 SlurmdStartTime=2023-05-19T13:41:15
    CfgTRES=cpu=96,mem=765000M,billing=96,gres/gpu=2
-   AllocTRES=cpu=92,mem=570G,gres/gpu=1
+   AllocTRES=cpu=86,mem=556G,gres/gpu=1
    CapWatts=n/a
    CurrentWatts=0 AveWatts=0
    ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
    
 
 NodeName=s1cmp007 Arch=x86_64 CoresPerSocket=24 
-   CPUAlloc=96 CPUTot=96 CPULoad=11.91
+   CPUAlloc=96 CPUTot=96 CPULoad=11.88
    AvailableFeatures=gpu,rhel7,cascade_lake,avx,sse4_2
    ActiveFeatures=gpu,rhel7,cascade_lake,avx,sse4_2
    Gres=gpu:a100:2(S:0)
    NodeAddr=s1cmp007 NodeHostName=s1cmp007 Version=20.02.6
    OS=Linux 3.10.0-1127.el7.x86_64 #1 SMP Tue Feb 18 16:39:12 EST 2020 
-   RealMemory=765000 AllocMem=393216 FreeMem=104188 Sockets=2 Boards=1
+   RealMemory=765000 AllocMem=393216 FreeMem=104115 Sockets=2 Boards=1
    State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
    Partitions=preempt 
    BootTime=2022-09-26T16:47:21 SlurmdStartTime=2023-05-19T13:41:15
@@ -3804,7 +3804,7 @@ NodeName=slurm-prod-02 Arch=x86_64 CoresPerSocket=1
    Gres=(null)
    NodeAddr=slurm-prod-02 NodeHostName=slurm-prod-02 Version=20.02.6
    OS=Linux 3.10.0-862.el7.x86_64 #1 SMP Wed Mar 21 18:14:51 EDT 2018 
-   RealMemory=1 AllocMem=0 FreeMem=12929 Sockets=1 Boards=1
+   RealMemory=1 AllocMem=0 FreeMem=12914 Sockets=1 Boards=1
    State=IDLE+DRAIN ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
    BootTime=2020-12-07T11:17:31 SlurmdStartTime=2020-12-07T11:17:55
    CfgTRES=cpu=1,mem=1M,billing=1

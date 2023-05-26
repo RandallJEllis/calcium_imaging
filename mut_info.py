@@ -6,6 +6,8 @@ import multiprocessing as mp
 from time import gmtime, strftime
 from varley.local_mi import local_total_correlation
 from tqdm import tqdm
+from joblib import Parallel, delayed
+
 
 '''
 Mutual information calculation for calcium imaging data. 
@@ -20,8 +22,8 @@ Returns:
     None. Saves the mutual information matrix to a file named "mut_info_matrix.npy".
 '''
 
-
-def global_mi(data):
+    
+def global_mi(data, sdir):
 
     """
     Calculate mutual information between pairs of vectors using parallel processing.
@@ -37,27 +39,49 @@ def global_mi(data):
     n = len(data)
     mi_matrix = np.zeros((n, n))
 
-    # calculate the mutual information between all pairs of vectors and store in the matrix
-    with mp.Pool() as pool:
-        futures = []
-        for i in range(n):
-            for j in range(i+1, n):
-                if i == j:
-                    continue
-                futures.append(pool.apply_async(
-                    mutual_info_regression, (data[i].reshape(-1, 1), data[j]),
-                    {'n_neighbors': 5, 'random_state': 0}))
-        for i, f in enumerate(tqdm(futures, total=len(futures))):
-            mi_matrix[i//n, i%n] = f.get()
-            mi_matrix[i%n, i//n] = mi_matrix[i//n, i%n]
+    results = Parallel(n_jobs=-1, verbose=5)(
+        delayed(mutual_info_regression)(
+            data[i].reshape(-1, 1), data[j], n_neighbors=5, random_state=0
+        ) for i in range(n) for j in range(i+1, n)
+    )
+
+
+    # Store the results in the matrix
+    idx = 0
+    for i in range(n):
+        for j in range(i+1, n):
+            mi_matrix[i, j] = results[idx]
+            mi_matrix[j, i] = results[idx]
+            idx += 1
+
+    # # Store indices for reassembling the matrix chunks later
+    # indices = []
+
+    # # calculate the mutual information between all pairs of vectors and store in the matrix
+    # with mp.Pool() as pool:
+    #     futures = []
+    #     for i in range(n):
+    #         for j in range(i+1, n):
+    #             if i == j:
+    #                 continue
+    #             futures.append(pool.apply_async(
+    #                 mutual_info_regression, (data[i].reshape(-1, 1), data[j]),
+    #                 {'n_neighbors': 5, 'random_state': 0}))
+    #             indices.append((i,j))
+
+    #     for idx, f in enumerate(tqdm(futures, total=len(futures))):
+    #         i,j = indices[idx]
+    #         mi_matrix[i, j] = f.get()
+    #         mi_matrix[j, i] = mi_matrix[i, j]
 
     # save the mutual information matrix to a file
-    np.save("mut_info_matrix.npy", mi_matrix)
+    filename = os.path.join(sdir, 'bigtiffs', 'suite2p', 'plane0', 'mut_info_matrix.npy')
+    np.save(filename, mi_matrix)
 
+def local_total_correlation_wrapper(data):
+    return local_total_correlation(data)
 
-
-def local_mi(data):
-
+def local_mi(data, sdir):
     """
     Calculate local mutual information between pairs of vectors using parallel processing.
 
@@ -67,38 +91,31 @@ def local_mi(data):
     Returns:
         None. Saves the local mutual information matrices to separate files in chunks.
     """
-
     n = len(data)
     mi_matrix = np.zeros((n, n, data.shape[1]))
 
     # convert data to float64 (required for cython function)
     data = data.astype(np.float64)
 
-    # Chunk size for saving
-    chunk_size = 100
-
     # calculate the mutual information between all pairs of vectors and store in the matrix
-    with mp.Pool(mp.cpu_count()) as pool:
-        futures = []
-        for i in range(n):
-            print(f'Neuron {i} out of {n}, {strftime("%Y-%m-%d %H:%M:%S", gmtime())}')
-            for j in range(i+1, n):
-                if i == j:
-                    continue
-                dpass = data[[i,j]]
-                futures.append(pool.apply_async(local_total_correlation, args=(dpass,)))
-        
-        # Save mi_matrix in smaller chunks
-        for start in range(0, n, chunk_size):
-            end = min(start + chunk_size, n)
-            chunk = futures[start:end]
-            for i, f in enumerate(chunk):
-                mi_matrix[start:end, i] = f.get()
-                mi_matrix[i, start:end] = mi_matrix[start:end, i]
+    print('starting loop')
+    results = Parallel(n_jobs=-1, verbose=5)(
+        delayed(local_total_correlation_wrapper)(
+            data[[i, j]]
+        ) for i in range(n) for j in range(i+1, n)
+    )
 
-            # Save the chunk to a file
-            filename = os.path.join(dir, 'bigtiffs', 'suite2p', 'plane0', f'local_mut_info_matrix_chunk_{start}_{end}.npy')
-            np.save(filename, mi_matrix[start:end])
+    # Store the results in the matrix
+    idx = 0
+    for i in range(n):
+        for j in range(i+1, n):
+            mi_matrix[i, j] = results[idx]
+            mi_matrix[j, i] = results[idx]
+            idx += 1
+    
+    # Save data
+    filename = os.path.join(sdir, 'bigtiffs', 'suite2p', 'plane0', 'local_mut_info_matrix.npy')
+    np.save(filename, mi_matrix)
 
 if __name__ == '__main__':
     # Define the path to the Suite2P output
@@ -123,28 +140,32 @@ if __name__ == '__main__':
                 subdirectories.append(os.path.join(dirpath, dirname))
 
     # iterate over the subdirectories and save a subsetted spks array for the cell ROIs
-    for dir in subdirectories:
-        print(dir)
+    for sdir in subdirectories:
+        print(sdir)
         # check if 'cell_spks.npy' exists in the directory
-        if os.path.isfile(os.path.join(dir, 'bigtiffs', 'suite2p', 'plane0', 'cell_spks.npy')):
+        if os.path.isfile(os.path.join(sdir, 'bigtiffs', 'suite2p', 'plane0', 'cell_spks.npy')):
             # initialize filename
             if mi_type == 'global':
-                filename = os.path.join(dir, 'bigtiffs', 'suite2p', 'plane0', 'mut_info_matrix.npy')
+                filename = os.path.join(sdir, 'bigtiffs', 'suite2p', 'plane0', 'mut_info_matrix.npy')
             elif mi_type == 'local':
-                filename = os.path.join(dir, 'bigtiffs', 'suite2p', 'plane0', 'local_mut_info_matrix.npy')
+                filename = os.path.join(sdir, 'bigtiffs', 'suite2p', 'plane0', 'local_mut_info_matrix.npy')
+
+            # check if the file already exists and overwrite is set to False
             if os.path.isfile(filename) and not overwrite:
                 print(f'{filename} already exists')
+            # otherwise, run the mutual information calculation
             else:
-                print(f'Running {mi_type} mutual information calculation on {dir}\n')
+                print(f'Running {mi_type} mutual information calculation on {sdir}\n')
                 print(strftime("%Y-%m-%d %H:%M:%S", gmtime()))
 
-                cell_spks = np.load(os.path.join(dir, 'bigtiffs', 'suite2p', 'plane0', 'cell_spks.npy'))
+                # Load data and remove first 1000 frames (lots of photobleaching)
+                cell_spks = np.load(os.path.join(sdir, 'bigtiffs', 'suite2p', 'plane0', 'cell_spks.npy'))
                 cell_spks = cell_spks[:, 1000:6000]
 
                 if mi_type == 'global':
-                    global_mi(cell_spks)
+                    global_mi(cell_spks, sdir)
                 elif mi_type == 'local':
-                    local_mi(cell_spks)
+                    local_mi(cell_spks, sdir)
 
-                print(f'{filename} saved')
+                print(f'{sdir} saved')
                 print(strftime("%Y-%m-%d %H:%M:%S", gmtime()))  

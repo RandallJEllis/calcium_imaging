@@ -1,12 +1,7 @@
-from distutils.core import setup, Extension
+from setuptools import setup
 from Cython.Build import cythonize
-import numpy
-
-extensions = [
-    Extension("local_mi", ["local_mi.pyx"],
-              include_dirs=[numpy.get_include()])
-]
 
 setup(
-    ext_modules=cythonize(extensions)
+    ext_modules = cythonize("local_mi.pyx")
 )
+
