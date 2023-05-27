@@ -4,10 +4,10 @@ from sklearn.feature_selection import mutual_info_regression
 import sys
 import multiprocessing as mp
 from time import gmtime, strftime
+sys.path.append('/cluster/tufts/levinlab/rellis01/calcium/varley')
 from varley.local_mi import local_total_correlation
 from tqdm import tqdm
 from joblib import Parallel, delayed
-
 
 '''
 Mutual information calculation for calcium imaging data. 
@@ -22,7 +22,6 @@ Returns:
     None. Saves the mutual information matrix to a file named "mut_info_matrix.npy".
 '''
 
-    
 def global_mi(data, sdir):
 
     """
@@ -39,7 +38,7 @@ def global_mi(data, sdir):
     n = len(data)
     mi_matrix = np.zeros((n, n))
 
-    results = Parallel(n_jobs=-1, verbose=5)(
+    results = Parallel(n_jobs=-1, verbose=10)(
         delayed(mutual_info_regression)(
             data[i].reshape(-1, 1), data[j], n_neighbors=5, random_state=0
         ) for i in range(n) for j in range(i+1, n)
@@ -99,11 +98,7 @@ def local_mi(data, sdir):
 
     # calculate the mutual information between all pairs of vectors and store in the matrix
     print('starting loop')
-    results = Parallel(n_jobs=-1, verbose=5)(
-        delayed(local_total_correlation_wrapper)(
-            data[[i, j]]
-        ) for i in range(n) for j in range(i+1, n)
-    )
+    results = Parallel(n_jobs=-1, verbose=10)(delayed(local_total_correlation_wrapper)(data[[i, j]]) for i in range(n) for j in range(i+1, n))
 
     # Store the results in the matrix
     idx = 0
