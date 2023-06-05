@@ -38,12 +38,11 @@ def global_mi(data, sdir):
     n = len(data)
     mi_matrix = np.zeros((n, n))
 
-    results = Parallel(n_jobs=-1, verbose=10)(
+    results = Parallel(n_jobs=-1, verbose=51)(
         delayed(mutual_info_regression)(
             data[i].reshape(-1, 1), data[j], n_neighbors=5, random_state=0
         ) for i in range(n) for j in range(i+1, n)
     )
-
 
     # Store the results in the matrix
     idx = 0
@@ -53,28 +52,8 @@ def global_mi(data, sdir):
             mi_matrix[j, i] = results[idx]
             idx += 1
 
-    # # Store indices for reassembling the matrix chunks later
-    # indices = []
-
-    # # calculate the mutual information between all pairs of vectors and store in the matrix
-    # with mp.Pool() as pool:
-    #     futures = []
-    #     for i in range(n):
-    #         for j in range(i+1, n):
-    #             if i == j:
-    #                 continue
-    #             futures.append(pool.apply_async(
-    #                 mutual_info_regression, (data[i].reshape(-1, 1), data[j]),
-    #                 {'n_neighbors': 5, 'random_state': 0}))
-    #             indices.append((i,j))
-
-    #     for idx, f in enumerate(tqdm(futures, total=len(futures))):
-    #         i,j = indices[idx]
-    #         mi_matrix[i, j] = f.get()
-    #         mi_matrix[j, i] = mi_matrix[i, j]
-
     # save the mutual information matrix to a file
-    filename = os.path.join(sdir, 'bigtiffs', 'suite2p', 'plane0', 'mut_info_matrix.npy')
+    filename = os.path.join(sdir, 'bigtiffs', 'suite2p', 'plane0', 'F_mut_info_matrix.npy')
     np.save(filename, mi_matrix)
 
 def local_total_correlation_wrapper(data):
@@ -98,7 +77,7 @@ def local_mi(data, sdir):
 
     # calculate the mutual information between all pairs of vectors and store in the matrix
     print('starting loop')
-    results = Parallel(n_jobs=-1, verbose=10)(delayed(local_total_correlation_wrapper)(data[[i, j]]) for i in range(n) for j in range(i+1, n))
+    results = Parallel(n_jobs=-1, verbose=51)(delayed(local_total_correlation_wrapper)(data[[i, j]]) for i in range(n) for j in range(i+1, n))
 
     # Store the results in the matrix
     idx = 0
@@ -109,7 +88,7 @@ def local_mi(data, sdir):
             idx += 1
     
     # Save data
-    filename = os.path.join(sdir, 'bigtiffs', 'suite2p', 'plane0', 'local_mut_info_matrix.npy')
+    filename = os.path.join(sdir, 'bigtiffs', 'suite2p', 'plane0', 'F_local_mut_info_matrix.npy')
     np.save(filename, mi_matrix)
 
 if __name__ == '__main__':
@@ -137,13 +116,13 @@ if __name__ == '__main__':
     # iterate over the subdirectories and save a subsetted spks array for the cell ROIs
     for sdir in subdirectories:
         print(sdir)
-        # check if 'cell_spks.npy' exists in the directory
-        if os.path.isfile(os.path.join(sdir, 'bigtiffs', 'suite2p', 'plane0', 'cell_spks.npy')):
+        # check if 'F.npy' exists in the directory
+        if os.path.isfile(os.path.join(sdir, 'bigtiffs', 'suite2p', 'plane0', 'F.npy')):
             # initialize filename
             if mi_type == 'global':
-                filename = os.path.join(sdir, 'bigtiffs', 'suite2p', 'plane0', 'mut_info_matrix.npy')
+                filename = os.path.join(sdir, 'bigtiffs', 'suite2p', 'plane0', 'F_mut_info_matrix.npy')
             elif mi_type == 'local':
-                filename = os.path.join(sdir, 'bigtiffs', 'suite2p', 'plane0', 'local_mut_info_matrix.npy')
+                filename = os.path.join(sdir, 'bigtiffs', 'suite2p', 'plane0', 'F_local_mut_info_matrix.npy')
 
             # check if the file already exists and overwrite is set to False
             if os.path.isfile(filename) and not overwrite:
@@ -154,13 +133,15 @@ if __name__ == '__main__':
                 print(strftime("%Y-%m-%d %H:%M:%S", gmtime()))
 
                 # Load data and remove first 1000 frames (lots of photobleaching)
-                cell_spks = np.load(os.path.join(sdir, 'bigtiffs', 'suite2p', 'plane0', 'cell_spks.npy'))
-                cell_spks = cell_spks[:, 1000:6000]
+                F = np.load(os.path.join(sdir, 'bigtiffs', 'suite2p', 'plane0', 'F.npy'))
+                iscell = np.load(os.path.join(sdir, 'bigtiffs', 'suite2p', 'plane0', 'iscell.npy'))   
+                F = F[iscell[:, 0] == 1]
+                F = F[:, 1000:6000]
 
                 if mi_type == 'global':
-                    global_mi(cell_spks, sdir)
+                    global_mi(F, sdir)
                 elif mi_type == 'local':
-                    local_mi(cell_spks, sdir)
+                    local_mi(F, sdir)
 
                 print(f'{sdir} saved')
                 print(strftime("%Y-%m-%d %H:%M:%S", gmtime()))  
