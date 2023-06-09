@@ -2,6 +2,7 @@
 # https://github.com/github/gitignore/blob/main/Python.gitignore
 juanita/
 copy_for_wes
+figures/
 *.out
 *.err
 *scratchpad*
