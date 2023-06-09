@@ -1,0 +1,1 @@
+rsync -avm --include='*/' --include='*.png' --exclude='*' juanita/ $1

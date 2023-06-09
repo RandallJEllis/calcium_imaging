@@ -101,7 +101,13 @@ if __name__ == '__main__':
     print(mi_type)
 
     # whether to overwrite existing files
-    overwrite = sys.argv[3] # 'True' or 'False' for overwriting existing files
+    # sys.argv[3] = 'True' or 'False' for overwriting existing files
+    if sys.argv[3] == 'True':
+        overwrite = True
+    elif sys.argv[3] == 'False':  
+        overwrite = False  
+    else:
+        print('Incorrect entry for overwrite argument...')
 
     # create an empty list to store the subdirectories
     subdirectories = []
@@ -123,6 +129,7 @@ if __name__ == '__main__':
                 filename = os.path.join(sdir, 'bigtiffs', 'suite2p', 'plane0', 'F_mut_info_matrix.npy')
             elif mi_type == 'local':
                 filename = os.path.join(sdir, 'bigtiffs', 'suite2p', 'plane0', 'F_local_mut_info_matrix.npy')
+                print(filename)
 
             # check if the file already exists and overwrite is set to False
             if os.path.isfile(filename) and not overwrite:
